@@ -1,2 +1,2 @@
 # terapia-con-pablo
-Web design and development for Pablo Rodriguez 
+Web design and development for psychologist Pablo Rodriguez.
