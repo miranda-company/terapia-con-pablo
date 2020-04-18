@@ -1,0 +1,200 @@
+/* ==========================================================================
+   Style index: 
+   ========================================================================== */
+/* 
+    0. Fonts
+    1. HTML and body elments
+    2. Global classes
+    3. Main containers
+    4. Nav
+    5. Footer
+
+    6. Inicio
+
+    *. Media queries
+*/
+
+/* ==========================================================================
+   0. FONTS
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
+
+
+/* ==========================================================================
+   1. HTML and body elments
+   ========================================================================== */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f2ede9;
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: #505050;
+  line-height: 1.8em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* User-select color */
+::-moz-selection {
+  background-color: #ffa2d5;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #ffa2d5;
+  text-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   2. Global classes
+   ========================================================================== */
+.page-overlay {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  pointer-events: none;
+  z-index: 1000;
+  display: none;
+}
+
+/* ==========================================================================
+   3. Main containers
+   ========================================================================== */
+.main-container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #8985bb;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.normal-section {
+  position: relative;
+  width: 100%;
+  height: inherit;
+  height: 1000px;
+  padding-top: 75px;
+}
+
+.page-wrapp {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #d6d6d6;
+  border: 1px solid red;
+}
+
+/* ==========================================================================
+   4. Nav
+   ========================================================================== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  z-index: 100;
+  border: 1px solid black;
+}
+  .menu-buttons {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(237, 237, 237);
+  }
+      .menu-button a {
+        display: block;
+        padding: 1px 10px;
+        font-size: 0.8em;
+        font-weight: 400;
+        color: #4f5956;
+      }
+      .button-on-focus {
+        border-bottom: 1px solid #cacac6;
+      }
+      .button-selected {
+        border: 1px solid #cacac6;
+      }
+
+#quick-nav {
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  z-index: 100;
+}
+  #quick-nav-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .quick-nav-button {
+    
+  }
+    .quick-nav-button a {
+      display: block;
+      width: 30px;
+      height: 30px; 
+      background: #f2ede9;
+      border: 1px solid #ccc8c4;
+      text-align: center;
+    }
+
+
+/* ==========================================================================
+   5. Footer
+   ========================================================================== */
+footer {
+  width: 100%;
+  height: 50vh;
+  padding: 2em;
+  background-color: #314658;
+  color: #d6e4df;
+}
+
+/* ==========================================================================
+   6. Inicio
+   ========================================================================== */
+
+#inicio {
+  background: url(../_media/home-bg-visual.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ==========================================================================
+   *. Media queries
+   ========================================================================== */
+
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1536px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:360px){}
+
