@@ -39,8 +39,8 @@
       <ul class="menu-buttons">
         <li class="menu-button button-selected"><a href="#inicio">Inicio</a></li>
         <li class="menu-button button-on-focus"><a href="#sobre-pablo">Sobre Pablo</a></li>
-        <li class="menu-button"><a href="#">Terapias</a></li>
-        <li class="menu-button"><a href="#">Formación</a></li>
+        <li class="menu-button"><a href="#terapias">Terapias</a></li>
+        <li class="menu-button"><a href="#formacion">Formación</a></li>
         <li class="menu-button"><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>

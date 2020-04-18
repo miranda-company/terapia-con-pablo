@@ -10,6 +10,8 @@
     5. Footer
 
     6. Inicio
+    7. Sobre Pablo
+    8. Terapias
 
     *. Media queries
 */
@@ -17,7 +19,11 @@
 /* ==========================================================================
    0. FONTS
    ========================================================================== */
-   @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
+  /* Headers font */
+  @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+  /* Body font */
+  @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
 
 
 /* ==========================================================================
@@ -38,24 +44,39 @@ body {
   font-size: 15px;
   color: #505050;
   line-height: 1.8em;
+  letter-spacing: 0.08em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amiri', serif;
+  margin: 0;
+}
+
+h1 { font-size: 3em; }
+h2 { 
+  font-size: 1.7em;
+  color: #404c4b;
+  margin-bottom: 15px;
+}
+
 /* User-select color */
 ::-moz-selection {
-  background-color: #ffa2d5;
+  background-color: #dde5ff;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #ffa2d5;
+  background-color: #dde5ff;
   text-shadow: none;
 }
 
 a {
   text-decoration: none;
+  color: #b88d19;
+  font-weight: 400;
 }
 
 /* ==========================================================================
@@ -73,6 +94,22 @@ a {
   display: none;
 }
 
+.text-left {
+  padding-right: 50px;
+  width: 50%;
+}
+
+.text-right {
+  padding-left: 50px;
+}
+
+.cta {
+  padding: 12px 50px;
+  font-size: 0.8em;
+  color: #b88d19;
+  border: 1px solid #b88d19;
+}
+
 /* ==========================================================================
    3. Main containers
    ========================================================================== */
@@ -82,7 +119,6 @@ a {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  border: 1px solid #8985bb;
 }
 
 .hero-section {
@@ -95,17 +131,22 @@ a {
 .normal-section {
   position: relative;
   width: 100%;
-  height: inherit;
-  height: 1000px;
-  padding-top: 75px;
+  height: auto;
+  padding: 150px 0;
 }
 
 .page-wrapp {
-  max-width: 900px;
+  position: relative;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0;
-  background-color: #d6d6d6;
-  border: 1px solid red;
+  padding: 0 50px;
+}
+
+.quote-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 180px;
 }
 
 /* ==========================================================================
@@ -117,16 +158,15 @@ nav {
   left: 0;
   width: 100%;
   margin: 0;
-  padding: 20px 0;
+  padding: 15px 0;
+  background-color: #f2ede9;
   z-index: 100;
-  border: 1px solid black;
 }
   .menu-buttons {
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid rgb(237, 237, 237);
   }
       .menu-button a {
         display: block;
@@ -152,9 +192,6 @@ nav {
     display: flex;
     flex-direction: column;
   }
-  .quick-nav-button {
-    
-  }
     .quick-nav-button a {
       display: block;
       width: 30px;
@@ -170,10 +207,29 @@ nav {
    ========================================================================== */
 footer {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
+  margin-top: 180px;
   padding: 2em;
   background-color: #314658;
   color: #d6e4df;
+  background: url(../_media/bg-footer.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#quick-contact {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 3em;
+  font-size: 0.6em;
+  font-weight: 400;
+  color: #4f5956;
+  background-color: rgba(242, 237, 233, 0.9);
+  border-radius: 0 10px 0 0;
+  z-index: 100;
 }
 
 /* ==========================================================================
@@ -181,14 +237,113 @@ footer {
    ========================================================================== */
 
 #inicio {
-  background: url(../_media/home-bg-visual.jpg) no-repeat center center; 
+  background: url(../_media/bg-visual.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+#welcome-message {
+  margin: 60vh auto;
+  color: #eeeeee;
+}
+  #welcome-message p {
+    width: 60%;
+  }
+ 
+/* ==========================================================================
+   7. Sobre Pablo
+   ========================================================================== */
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+
+.portrait {
+  margin-top: 65px;
+}
+
+.bg-decor-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 340px;
+  background: url(../_media/bg-texture-1.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 0;
+}
+
+/* ==========================================================================
+   8. Terapias
+   ========================================================================== */
+.terapia-img {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 485px;
+  height: 440px;
+  background-color: gray;
+}
+.desc-terapia {
+  margin-top: 60px;
+}
+#terapia-img-1 {
+  top: 0;
+}
+
+#terapia-img-2 {
+  top: 470px;
+}
+
+/* ==========================================================================
+   9. Quote
+   ========================================================================== */
+#quote {
+  background: url(../_media/bg-quote-1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#quote-bg-white-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../_media/bg-quote-white-overlay.png) no-repeat center center; 
+}
+
+.quote-border {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+
+#quote-border-top {
+  top: 0;
+  background: url(../_media/bg-quote-border-top.png) repeat-x;
+}
+
+#quote-border-bottom {
+  bottom: 0;
+  background: url(../_media/bg-quote-border-bottom.png) repeat-x;
+}
+
+#quote-text {
+  text-align: center;
+  padding: 0 180px;
+}
 /* ==========================================================================
    *. Media queries
    ========================================================================== */
