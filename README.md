@@ -1,6 +1,6 @@
 # terapia-con-pablo
-Web design and development for psychologist Pablo Rodriguez.
+Diseño y desarrollo web para el psicoterapeuta Pablo Rodríguez.
 
-This website was designed and developed by la-baula www.labaula.net
+Diseñado y desarrollado por la-baula www.labaula.net
 
-Currently in version 0.1 - as to date 2020 / 04 / 17
+Versión 0.1 -  fecha: 2020 / 04 / 17
