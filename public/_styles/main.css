@@ -64,12 +64,12 @@ h2 {
 
 /* User-select color */
 ::-moz-selection {
-  background-color: #dde5ff;
+  background-color: #fff5dd;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #dde5ff;
+  background-color: #fff5dd;
   text-shadow: none;
 }
 
@@ -96,7 +96,6 @@ a {
 
 .text-left {
   padding-right: 50px;
-  width: 50%;
 }
 
 .text-right {
@@ -146,7 +145,7 @@ a {
   position: relative;
   width: 100%;
   height: auto;
-  margin-bottom: 180px;
+  margin-bottom: 165px;
 }
 
 /* ==========================================================================
@@ -160,7 +159,7 @@ nav {
   margin: 0;
   padding: 15px 0;
   background-color: #f2ede9;
-  z-index: 100;
+  z-index: 102;
 }
   .menu-buttons {
     max-width: 1280px;
@@ -186,7 +185,7 @@ nav {
   position: fixed;
   bottom: 35px;
   right: 30px;
-  z-index: 100;
+  z-index: 101;
 }
   #quick-nav-buttons {
     display: flex;
@@ -206,17 +205,82 @@ nav {
    5. Footer
    ========================================================================== */
 footer {
+  position: relative;
   width: 100%;
   height: 70vh;
   margin-top: 180px;
   padding: 2em;
   background-color: #314658;
-  color: #d6e4df;
+  color: #defff2;
   background: url(../_media/bg-footer.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 99;
+}
+
+#footer-header{
+  position: relative;
+  margin-top: -80px;
+  height: 65px;
+}
+  #faro-animation {
+    position: absolute;
+    bottom: 0;
+    right: 20px; 
+    width: 100px;
+    height: 100%;
+    border: 1px solid red;
+  }
+    #faro {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 40px;
+      height: 60px;
+      background-color: red;
+    }
+
+    #boat {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 20px;
+      background-color: red;
+    }
+
+.footer-info-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.footer-col {
+  padding: 0 2em 2em 0;
+}
+#external {
+  width: 120px;
+}
+  #external img {
+    width: 100%;
+  }
+#labaula-disclaimer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8em;
+  color: #47647c;
+}
+
+#labaula-disclaimer a {
+  color: #52738f;
 }
 
 #quick-contact {
@@ -227,10 +291,12 @@ footer {
   font-size: 0.6em;
   font-weight: 400;
   color: #4f5956;
-  background-color: rgba(242, 237, 233, 0.9);
+  background-color: #f2ede9;
   border-radius: 0 10px 0 0;
-  z-index: 100;
+  z-index: 98;
 }
+
+
 
 /* ==========================================================================
    6. Inicio
@@ -242,6 +308,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 100;
 }
 
 #welcome-message {
@@ -290,6 +357,9 @@ footer {
   width: 485px;
   height: 440px;
   background-color: gray;
+}
+#texto-terapia {
+  width: 50%;
 }
 .desc-terapia {
   margin-top: 60px;
@@ -344,12 +414,47 @@ footer {
   text-align: center;
   padding: 0 180px;
 }
+
+/* ==========================================================================
+   10. Formación
+   ========================================================================== */
+#formacion-main-content {
+  margin-top: 220px;
+}
+
+#formacion-img-container {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+.formacion-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 340px;
+  background-color: gray;
+}
+  
+#formacion-img-1 {
+  top: 0;
+  right: 350px;
+}
+  
+#formacion-img-2 {
+  top: 0;
+}
+
 /* ==========================================================================
    *. Media queries
    ========================================================================== */
 
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1536px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:360px){}
+@media screen and (max-width:950px){
+  body { font-size: 12px; }
+}
+
+@media screen and (max-width:850px){
+  body { font-size: 15px; }
+}
+
 

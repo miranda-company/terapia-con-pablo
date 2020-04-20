@@ -1,5 +1,5 @@
 <?php require_once("../private/initialize.php"); ?>
-<?php $page_title = "Home" ?>
+<?php $page_title = "" ?>
 <?php include(SHARED_PATH . "/header.php"); ?>
 
 <!-- Section: Inicio header -->
@@ -54,7 +54,7 @@
   </div>
 
   <div class="page-wrapp main-content">
-    <div class="text-left">
+    <div id="texto-terapia" class="text-left">
       <!-- Terapias individuales -->
       <p class="desc-terapia">
         <h2>Terapias individuales</h2>
@@ -100,41 +100,39 @@
 
 <!-- Section: Formación -->
 <section id="formacion" class="normal-section">
+  <div id="formacion-img-container">
+    <div id="formacion-img-1" class="formacion-img">
+      <img src="_media/img-formacion-1.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+    </div>
 
-  <div id="terapia-img-1" class="terapia-img">
-    <img src="_media/img-terapias-1.jpg" alt="Terapias individuales Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+    <div id="formacion-img-2" class="formacion-img">
+      <img src="_media/img-formacion-2.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+    </div>
   </div>
 
-  <div id="terapia-img-2" class="terapia-img">
-    <img src="_media/img-terapias-2.jpg" alt="Terapias relacionales Pablo Rodríguez González" title="Terapias relacionales Pablo Rodríguez González">
-  </div>
-
-  <div class="page-wrapp main-content">
-    <div class="text-left">
-      <!-- Terapias individuales -->
-      <p class="desc-terapia">
-        <h2>Terapias individuales</h2>
-        En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
+  <div id="formacion-main-content" class="page-wrapp main-content">
+    <!-- Cursos -->
+    <div class="text-left">  
+      <p class="desc-cursos">
+        <h2>Cursos</h2>
+        A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
         <br>
         <br>
-        A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
-        <br>
-        <br>
-        <a class="cta" href="terapias-individuales.html" target="_self" title="Ver las terapias individuales">
-          Conócelas ->
+        <a class="cta" href="cursos.html" target="_self" title="Ver los cursos que ofrezco">
+          Ver cursos ->
         </a>
       </p>
-      <!-- Terapias relacionales -->
-      <p class="desc-terapia">
-        <h2>Terapias relacionales</h2>
-        En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
+    </div>
+
+    <!-- Conferencias -->
+    <div class="text-right">  
+      <p class="desc-cursos">
+        <h2>Cursos</h2>
+        A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
         <br>
         <br>
-        A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
-        <br>
-        <br>
-        <a class="cta" href="terapias-relacionales.html" target="_self" title="Ver las terapias relacionales">
-          Conócelas ->
+        <a class="cta" href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi curriculum">
+          Conoce mi cv ->
         </a>
       </p>
     </div>
