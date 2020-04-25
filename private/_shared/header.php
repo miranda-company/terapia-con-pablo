@@ -12,11 +12,11 @@
       <meta charset="utf-8">
       <meta name="language" content="es">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title><?php echo h($page_title); ?> Terapia con Pablo Rodríguez : psicooncólogo y psicoterapeuta basado en Ibiza, España</title>
+      <title><?php echo h($page_title); ?> Terapia con Pablo Rodríguez : psicoterapeuta especialista en procesos de duelo basado en Ibiza, España</title>
       <meta name="description" content="Here a description of your website.">
       <meta name="keywords" content="Keyword 1, Keyword 2">
       <meta name="author" content="La baula www.labaula.net">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
       <meta name="robots" content="all">
       <meta name="theme-color" content="#2d2d2d">
 

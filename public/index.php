@@ -127,7 +127,7 @@
     <!-- Conferencias -->
     <div class="text-right">  
       <p class="desc-cursos">
-        <h2>Cursos</h2>
+        <h2>Formación</h2>
         A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
         <br>
         <br>
