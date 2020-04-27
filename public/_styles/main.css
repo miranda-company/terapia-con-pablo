@@ -260,6 +260,7 @@ footer {
   margin: 100px auto 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
 }
@@ -315,7 +316,7 @@ footer {
 }
 
 #welcome-message {
-  margin: 60vh auto;
+  margin: 65vh auto;
   color: #eeeeee;
 }
   #welcome-message p {
@@ -366,8 +367,14 @@ footer {
   right: 5%;
   width: 485px;
   height: 440px;
+  overflow: hidden;
   background-color: gray;
 }
+ .terapia-img img {
+   width: 100%;
+   height: auto;
+ }
+
 #texto-terapia {
   width: 50%;
 }
@@ -459,29 +466,30 @@ footer {
    *. Media queries
    ========================================================================== */
 
-@media screen and (max-width:950px){
+@media screen and (max-width: 900px){
   body { font-size: 13px; }
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width: 850px){
   nav { display: none; }
   #quick-nav {
     position: fixed;
     bottom: 40px;
-    right: 10px;
+    right: 30px;
   }
   .normal-section { padding: 40px 0; }
-  .page-wrapp { padding: 0 20px; }
+  .page-wrapp { padding: 0 30px; }
   #quick-contact { padding: 0 2em; }
 
   /* 6. Inicio - media queries */
   #welcome-message { margin: 50vh auto; }
+  #welcome-message p { width: 80%; }
 
   /* 7. Sobre Pablo - media queries */
   .main-content { flex-direction: column; }
   .portrait { 
     margin-top: 0;
-    width: 100%;
+    width: 50%;
     height: auto;
   }
   .text-right { 
@@ -490,6 +498,16 @@ footer {
   }
 
   /* 8. Terapias - media queries */
+  .terapia-img {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 180px;
+    height: 160px;
+  }
+  #terapia-img-1 { top: 50px; }
+  #terapia-img-2 { top: 495px; }
+
   #texto-terapia { width: 100%; }
   .text-left { 
     padding-right: 0;
@@ -509,10 +527,20 @@ footer {
     height: 80vh;
     padding: 1em;
   }
+      #footer-header {
+        margin-top: -75px; 
+      }
   .footer-info-container {
     margin: 40px auto 0;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .portrait { 
+    margin-top: 0;
+    width: 100%;
+    height: auto;
   }
 }
 
