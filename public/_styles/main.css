@@ -25,6 +25,12 @@
   /* Body font */
   @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
 
+  /* Antialiased text with CSS */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
 
 /* ==========================================================================
    1. HTML and body elments
@@ -43,7 +49,7 @@ body {
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   color: #505050;
-  line-height: 1.8em;
+  line-height: 1.6em;
   letter-spacing: 0.08em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -65,18 +71,18 @@ h2 {
 
 /* User-select color */
 ::-moz-selection {
-  background-color: #fff5dd;
+  background-color: #fff2d3;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #fff5dd;
+  background-color: #fff2d3;
   text-shadow: none;
 }
 
 a {
   text-decoration: none;
-  color: #b88d19;
+  color: #daa61a;
   font-weight: 400;
 }
 
@@ -139,9 +145,10 @@ a {
 
 .page-wrapp {
   position: relative;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 60px;
+  border: 1px solid red;
 }
 
 .quote-section {
@@ -164,9 +171,7 @@ nav {
   background-color: #f2ede9;
   z-index: 102;
 }
-  .menu-buttons {
-    max-width: 1280px;
-    margin: 0 auto;
+  #menu-buttons {
     display: flex;
     justify-content: space-evenly;
   }
@@ -211,10 +216,8 @@ footer {
   position: relative;
   width: 100%;
   height: 70vh;
-  margin-top: 180px;
-  padding: 2em;
+  padding-top: 60px;
   background-color: #314658;
-  color: #defff2;
   background: url(../_media/bg-footer.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -225,9 +228,8 @@ footer {
 
 #footer-header{
   position: relative;
-  margin-top: -80px;
-  height: 65px;
-  border: 1px solid red;
+  margin: 0;
+  padding: 0 !important;
 }
   #faro-animation {
     position: absolute;
@@ -255,36 +257,48 @@ footer {
       background-color: red;
     }
 
-.footer-info-container {
-  max-width: 1280px;
-  margin: 100px auto 0;
+.footer-info {
+  color: #99cccc;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
   justify-content: space-evenly;
+  text-align: center;
 }
-
 .footer-col {
   padding: 0 2em 2em 0;
 }
-#external {
-  width: 120px;
+
+#footer-external-info {
+  margin-top: 30px;
+  justify-content: center !important;
 }
-  #external img {
+.external-icon {
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+}
+  .external-icon img {
     width: 100%;
   }
+
 #labaula-disclaimer {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 10px;
+  left: 30px;
   font-size: 0.8em;
-  color: #47647c;
+  color: #54738c;
 }
+  #labaula-disclaimer a, #footer-politica-privacidad a{
+    color: #99cccc;
+    text-decoration: underline;
+  }
+    #labaula-disclaimer a:hover, #footer-politica-privacidad a:hover {
+      color: #9effff;
+    }
 
-#labaula-disclaimer a {
-  color: #52738f;
+#footer-politica-privacidad {
+  margin-top: 50px;
 }
 
 #quick-contact {
@@ -300,14 +314,12 @@ footer {
   z-index: 98;
 }
 
-
-
 /* ==========================================================================
    6. Inicio
    ========================================================================== */
 
 #inicio {
-  background: url(../_media/bg-visual.jpg) no-repeat center center; 
+  background: url(../_media/bg-visual.jpg) no-repeat center bottom; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -335,13 +347,12 @@ footer {
 
 .portrait {
   margin-top: 65px;
-  width: 380px;
-  height: 480px;
-  border: 1px solid red;
+  width: 50%;
+  height: auto;
 }
   .portrait img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
 .bg-decor-element {
@@ -375,7 +386,7 @@ footer {
    height: auto;
  }
 
-#texto-terapia {
+#textos-terapias {
   width: 50%;
 }
 .desc-terapia {
@@ -466,35 +477,33 @@ footer {
    *. Media queries
    ========================================================================== */
 
-@media screen and (max-width: 900px){
-  body { font-size: 13px; }
-}
+@media screen and (min-width: 1200px){
+  body { font-size: 18px; }
+}   
 
 @media screen and (max-width: 850px){
+  body { font-size: 13px; }
+
   nav { display: none; }
   #quick-nav {
     position: fixed;
     bottom: 40px;
-    right: 30px;
+    right: 20px;
   }
   .normal-section { padding: 40px 0; }
-  .page-wrapp { padding: 0 30px; }
+  .page-wrapp { padding: 0 20px; }
   #quick-contact { padding: 0 2em; }
 
   /* 6. Inicio - media queries */
-  #welcome-message { margin: 50vh auto; }
   #welcome-message p { width: 80%; }
 
   /* 7. Sobre Pablo - media queries */
-  .main-content { flex-direction: column; }
-  .portrait { 
-    margin-top: 0;
-    width: 50%;
+  .portrait {
+    width: 35%;
     height: auto;
   }
-  .text-right { 
-    padding-left: 0;
-    width: 100%;
+  .text-right {
+    width: 65%;
   }
 
   /* 8. Terapias - media queries */
@@ -508,7 +517,7 @@ footer {
   #terapia-img-1 { top: 50px; }
   #terapia-img-2 { top: 495px; }
 
-  #texto-terapia { width: 100%; }
+  #textos-terapias { width: 100%; }
   .text-left { 
     padding-right: 0;
     width: 100%;
@@ -523,24 +532,26 @@ footer {
   .desc-cursos { margin-top: 80px; }
 
   /* 4. Footer - media queries */
-  footer {
-    height: 80vh;
-    padding: 1em;
-  }
-      #footer-header {
-        margin-top: -75px; 
-      }
-  .footer-info-container {
-    margin: 40px auto 0;
-    justify-content: center;
-  }
+  footer { height: 80vh; }
 }
 
+@media screen and (max-width: 600px){
+  
+}
 @media screen and (max-width: 500px){
+
+  /* 6. Inicio - media queries */
+  #welcome-message { margin: 55vh auto; }
+
+  .main-content { flex-direction: column; }
   .portrait { 
     margin-top: 0;
     width: 100%;
     height: auto;
+  }
+  .text-right { 
+    padding-left: 0;
+    width: 100%;
   }
 }
 

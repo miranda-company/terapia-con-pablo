@@ -32,9 +32,6 @@
         Desde 2015 compagino la consulta privada en el centro de Ibiza con mi cargo de coordinador del Grupo de Trabajo y Psicooncología del Colegio de Psicólogos de las Islas Baleares y la psicooncología en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer"><strong>Asociación Española Contra el Cáncer</strong></a>.
         <br>
         <br>
-        Paralelamente a mi labor como psicólogo también me dedico a la docencia. He realizado formaciones en distintos colegios e institutos de Madrid, así como a profesionales del ámbito social a través del curso de Orientación Familiar del Ministerio de Sanidad, Servicios Sociales e Igualdad. También he participado como ponente en conferencias a nivel nacional e internacional.
-        <br>
-        <br>
         Para conocer al detalle mis dos facetas profesionales, te invito a seguir navegando.
       </p>
     </div>
@@ -54,8 +51,9 @@
   </div>
 
   <div class="page-wrapp main-content">
+
+    <!-- Terapias individuales -->
     <div id="texto-terapia" class="text-left">
-      <!-- Terapias individuales -->
       <p class="desc-terapia">
         <h2>Terapias individuales</h2>
         En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
@@ -68,6 +66,7 @@
           Conócelas ->
         </a>
       </p>
+    
       <!-- Terapias relacionales -->
       <p class="desc-terapia">
         <h2>Terapias relacionales</h2>

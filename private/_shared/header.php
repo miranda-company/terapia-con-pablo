@@ -34,17 +34,17 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    <!--  Nav -->
+    <!--  Main Nav -->
     <nav id="main-menu">
-      <ul class="menu-buttons">
-        <li class="menu-button button-selected"><a href="#inicio">Inicio</a></li>
-        <li class="menu-button button-on-focus"><a href="#sobre-pablo">Sobre Pablo</a></li>
-        <li class="menu-button"><a href="#terapias">Terapias</a></li>
-        <li class="menu-button"><a href="#formacion">Formación</a></li>
-        <li class="menu-button"><a href="#contacto">Contacto</a></li>
+      <ul id="menu-buttons" class="page-wrapp">
+        <li class="menu-button button-selected"><a href="index.php#inicio">Inicio</a></li>
+        <li class="menu-button button-on-focus"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
+        <li class="menu-button"><a href="index.php#terapias">Terapias</a></li>
+        <li class="menu-button"><a href="index.php#formacion">Formación</a></li>
+        <li class="menu-button"><a href="index.php#contacto">Contacto</a></li>
       </ul>
     </nav>
-    <!-- Nav ends -->
+    <!-- Main Nav ends -->
 
     <!--  Quick Nav -->
     <div id="quick-nav">
