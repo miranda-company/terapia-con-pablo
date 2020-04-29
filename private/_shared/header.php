@@ -36,7 +36,7 @@
 
     <!--  Main Nav -->
     <nav id="main-menu">
-      <ul id="menu-buttons" class="page-wrapp">
+      <ul id="menu-buttons" class="section-wrapp">
         <li class="menu-button button-selected"><a href="index.php#inicio">Inicio</a></li>
         <li class="menu-button button-on-focus"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
         <li class="menu-button"><a href="index.php#terapias">Terapias</a></li>

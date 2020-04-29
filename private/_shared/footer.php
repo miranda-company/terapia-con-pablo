@@ -13,7 +13,7 @@
   
   <!-- Footer -->
   <section id="footer-header" class="normal-section">
-      <div class="page-wrapp">
+      <div class="section-wrapp">
       <h2>Estamos en contacto</h2>
         <div id="faro-animation">
           <div id="faro"></div>
@@ -23,7 +23,7 @@
   </section>
   
   <footer id="contacto">
-    <div id="footer-main-info" class="page-wrapp footer-info">
+    <div id="footer-main-info" class="section-wrapp footer-info">
       <div class="footer-col">
         Pablo Rodríguez González
         <br>
@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <div id="footer-external-info" class="page-wrapp footer-info">
+    <div id="footer-external-info" class="section-wrapp footer-info">
       <div class="external-icon">
         <a href="https://wa.me/34644780605?text=Hola%20Pablo,%20me%20gustaría%20hacer%20terapia%20contigo.%20Mi%20nombre%20es%20" target="_blank" title="Agenda una cita conmigo a través de WhatsApp"><img src="<?php echo url_for('_media/icon-whatsapp.png')?>" alt=""></a>
       </div>
@@ -58,7 +58,7 @@
       </div>
     </div>
 
-    <div id="footer-politica-privacidad" class="page-wrapp footer-info">
+    <div id="footer-politica-privacidad" class="section-wrapp footer-info">
       <div>
         <a href="politica-privacidad.php" target="_self" title="Conoce la política de privacidad de éste sitio">Política de privacidad</a>
       </div>

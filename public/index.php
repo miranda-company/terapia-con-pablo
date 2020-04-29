@@ -4,7 +4,7 @@
 
 <!-- Section: Inicio header -->
 <section id="inicio" class="hero-section">
-  <div id="welcome-message" class="page-wrapp">
+  <div id="welcome-message" class="section-wrapp">
     <h1>Terapia con Pablo</h1>
     <p>Mi espacio terapéutico, donde acompaño a personas como tu en su proceso de cambio. ¿Empezamos?</p>
   </div>
@@ -15,7 +15,7 @@
 <section id="sobre-pablo" class="normal-section">
   <div id="decor-1" class="bg-decor-element"></div>
 
-  <div class="page-wrapp main-content">
+  <div class="section-wrapp main-content">
     <div class="portrait">
       <img src="_media/img-retrato-pablo.jpg" alt="Pablo Rodríguez González" title="Pablo Rodríguez González">
     </div>
@@ -42,16 +42,19 @@
 <!-- Section: Terapias -->
 <section id="terapias" class="normal-section">
 
-  <div id="terapia-img-1" class="terapia-img">
-    <img src="_media/img-terapias-1.jpg" alt="Terapias individuales Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
-  </div>
+  <div class="section-wrapp main-content">
+    
+    <!-- Imágenes Terapias -->
+    <div class="terapias-img-container">
+      <div id="terapia-img-1" class="terapia-img">
+        <img src="_media/img-terapias-1.jpg" alt="Terapias individuales Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+      </div>
 
-  <div id="terapia-img-2" class="terapia-img">
-    <img src="_media/img-terapias-2.jpg" alt="Terapias relacionales Pablo Rodríguez González" title="Terapias relacionales Pablo Rodríguez González">
-  </div>
-
-  <div class="page-wrapp main-content">
-
+      <div id="terapia-img-2" class="terapia-img">
+        <img src="_media/img-terapias-2.jpg" alt="Terapias relacionales Pablo Rodríguez González" title="Terapias relacionales Pablo Rodríguez González">
+      </div>
+    </div>
+    
     <!-- Terapias individuales -->
     <div id="texto-terapia" class="text-left">
       <p class="desc-terapia">
@@ -90,7 +93,7 @@
   <div id="quote-bg-white-overlay"></div>
   <div id="quote-border-top" class="quote-border"></div>
   <div id="quote-border-bottom" class="quote-border"></div>
-  <div id="quote-text" class="page-wrapp">
+  <div id="quote-text" class="section-wrapp">
     <p>“ La buena vida es un proceso, no un estado del ser. Se trata de una dirección, no un destino. ”</p>
     <h2>- Carl Rogers -</h2>
   </div>
@@ -99,17 +102,20 @@
 
 <!-- Section: Formación -->
 <section id="formacion" class="normal-section">
-  <div id="formacion-img-container">
-    <div id="formacion-img-1" class="formacion-img">
-      <img src="_media/img-formacion-1.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
-    </div>
 
-    <div id="formacion-img-2" class="formacion-img">
-      <img src="_media/img-formacion-2.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
-    </div>
-  </div>
+  <div id="formacion-main-content" class="section-wrapp main-content">
+    
+    <!-- Imágenes Formación -->
+    <div class="formacion-img-container">
+      <div id="formacion-img-1" class="formacion-img">
+        <img src="_media/img-formacion-1.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+      </div>
 
-  <div id="formacion-main-content" class="page-wrapp main-content">
+      <div id="formacion-img-2" class="formacion-img">
+        <img src="_media/img-formacion-2.jpg" alt="Formación y cursos de psicología con Pablo Rodríguez González" title="Terapias individuales Pablo Rodríguez González">
+      </div>
+    </div>
+    
     <!-- Cursos -->
     <div class="text-left">  
       <p class="desc-cursos">

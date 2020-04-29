@@ -143,12 +143,12 @@ a {
   padding: 150px 0;
 }
 
-.page-wrapp {
+.section-wrapp {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 60px;
-  border: 1px solid red;
+  padding: 0 100px;
+  /* border: 1px solid red; */
 }
 
 .quote-section {
@@ -233,11 +233,8 @@ footer {
 }
   #faro-animation {
     position: absolute;
-    bottom: 0;
-    right: 20px; 
+    right: 60px; 
     width: 100px;
-    height: 100%;
-    border: 1px solid red;
   }
     #faro {
       position: absolute;
@@ -372,19 +369,20 @@ footer {
 /* ==========================================================================
    8. Terapias
    ========================================================================== */
-.terapia-img {
+.terapias-img-container {
   position: absolute;
-  top: 0;
-  right: 5%;
-  width: 485px;
-  height: 440px;
-  overflow: hidden;
-  background-color: gray;
+  top: -150px;
+  right: 30px;
+  width: 40%;
+  height: auto;
 }
- .terapia-img img {
-   width: 100%;
-   height: auto;
- }
+  .terapia-img {
+    margin-bottom: 30px;
+  }
+    .terapia-img img {
+      width: 100%;
+      height: auto;
+    }
 
 #textos-terapias {
   width: 50%;
@@ -392,13 +390,7 @@ footer {
 .desc-terapia {
   margin-top: 60px;
 }
-#terapia-img-1 {
-  top: 0;
-}
 
-#terapia-img-2 {
-  top: 470px;
-}
 
 /* ==========================================================================
    9. Quote
@@ -450,48 +442,44 @@ footer {
   margin-top: 220px;
 }
 
-#formacion-img-container {
+.formacion-img-container {
   position: absolute;
-  top: 0;
-  right: 5%;
+  display: flex;
+  top: -370px;
+  right: 30px;
+  width: 670px;
+  height: auto;
 }
-.formacion-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 320px;
-  height: 340px;
-  background-color: gray;
-}
+  .formacion-img {
+    margin-left: 30px;
+  }
+    .formacion-img img {
+      width: 100%;
+      height: auto;
+    }
   
-#formacion-img-1 {
-  top: 0;
-  right: 350px;
-}
-  
-#formacion-img-2 {
-  top: 0;
-}
+
 
 /* ==========================================================================
    *. Media queries
    ========================================================================== */
 
 @media screen and (min-width: 1200px){
-  body { font-size: 18px; }
+  body { font-size: 17px; }
 }   
 
 @media screen and (max-width: 850px){
   body { font-size: 13px; }
-
-  nav { display: none; }
   #quick-nav {
     position: fixed;
     bottom: 40px;
-    right: 20px;
+    right: 30px;
   }
-  .normal-section { padding: 40px 0; }
-  .page-wrapp { padding: 0 20px; }
+  .normal-section { 
+    padding: 55px 0;
+    margin-bottom: 80px;
+  }
+  .section-wrapp { padding: 0 30px; }
   #quick-contact { padding: 0 2em; }
 
   /* 6. Inicio - media queries */
@@ -500,30 +488,16 @@ footer {
   /* 7. Sobre Pablo - media queries */
   .portrait {
     width: 35%;
-    height: auto;
   }
-  .text-right {
+  .text-left, .text-right {
     width: 65%;
   }
 
   /* 8. Terapias - media queries */
-  .terapia-img {
-    position: absolute;
+  .terapias-img-container {
+    width: 35%;
     top: 0;
-    right: 30px;
-    width: 180px;
-    height: 160px;
   }
-  #terapia-img-1 { top: 50px; }
-  #terapia-img-2 { top: 495px; }
-
-  #textos-terapias { width: 100%; }
-  .text-left { 
-    padding-right: 0;
-    width: 100%;
-  }
-
-  .desc-terapia { margin-top: 150px; }
 
   /* 9. Quote - media queries */
   #quote-text { padding: 0 20px; }
@@ -535,24 +509,34 @@ footer {
   footer { height: 80vh; }
 }
 
-@media screen and (max-width: 600px){
-  
-}
-@media screen and (max-width: 500px){
-
+@media screen and (max-width: 450px){
+  nav { display: none; }
   /* 6. Inicio - media queries */
   #welcome-message { margin: 55vh auto; }
-
   .main-content { flex-direction: column; }
   .portrait { 
     margin-top: 0;
     width: 100%;
     height: auto;
   }
-  .text-right { 
-    padding-left: 0;
+  .text-left, .text-right { 
+    padding: 0;
     width: 100%;
   }
+  .terapias-img-container {
+    display: flex;
+    width: 100%;
+    top: -130px;
+    right: 0;
+  }
+    .terapia-img {
+      margin-left: 7px;
+    }
+
+  #footer-external-info {
+    margin-top: 10px;
+  }
+  
 }
 
 

@@ -4,7 +4,7 @@
 
 <!-- Section: Politica de privacidad -->
 <section id="politica-privacidad" class="normal-section">
-  <div class="page-wrapp">
+  <div class="section-wrapp">
     <p>
       <h2>Política de privacidad</h2>
       <h3>Protección de datos de carácter personal según la LOPD </h3>
