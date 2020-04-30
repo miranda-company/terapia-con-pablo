@@ -22,17 +22,17 @@
 
     <div class="text-right">
       <p>
-        <h2>Pablo Rodriguez Gonzales</h2>
-        Hola, me llamo Pablo y soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Llevo más de diez años apoyando y acompañando a personas y familias a gestionar momentos vitales complicados.
+        <h2>Pablo Rodriguez González</h2>
+        Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias.
         <br>
         <br> 
-        Más que ofrecer soluciones, mi trabajo consiste en arrojar luz en el camino para que cada persona encuentre una manera sana de afrontar su día a día. Mi enfoque es multidisciplinar, por lo que me sirvo de la terapia cognitivo-conductual y de las llamadas terapias de tercera generación apoyándome en técnicas y estrategias de mindfulness.
+        Mi enfoque se basa en algunos aspectos de la terapia cognitivo-conductual y sobre todo en las terapias de tercera generación y el <em>mindfulness</em>. Estas últimas se centran en las necesidades de la persona yendo más allá de los síntomas de su malestar. 
         <br>
         <br>
-        Desde 2015 compagino la consulta privada en el centro de Ibiza con mi cargo de coordinador del Grupo de Trabajo y Psicooncología del Colegio de Psicólogos de las Islas Baleares y la psicooncología en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer"><strong>Asociación Española Contra el Cáncer</strong></a>.
+        Entiendo la psicoterapia como un trabajo en equipo. Juntos trabajaremos en el desarrollo de tu bienestar emocional a partir del autoconocimiento y la introspección. Mi papel consiste en guiarte a lo largo de este proceso para que logres sanar heridas, cerrar asuntos inconclusos y establecer una relación más sana contigo y con los demás. 
         <br>
         <br>
-        Para conocer al detalle mis dos facetas profesionales, te invito a seguir navegando.
+        Mi consulta está en el centro de Ibiza, en el Centro Avanza, aunque también me puedes encontrar en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer"><strong>Asociación Española Contra el Cáncer</strong></a> donde trabajo como psicooncólogo.
       </p>
     </div>
   </div>
@@ -58,11 +58,8 @@
     <!-- Terapias individuales -->
     <div id="texto-terapia" class="text-left">
       <p id="terapia-individual" class="desc-terapia">
-        <h2>Terapias individuales</h2>
-        En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
-        <br>
-        <br>
-        A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
+        <h2>Terapia individual</h2>
+        Este tipo de terapias se centran en aliviar el sufrimiento emocional y su impacto en nuestra conducta a partir del autoconocimiento. Son terapias personalizadas con las que descubrirás las herramientas para resolver tus problemas y alcanzar un mayor grado de bienestar y funcionalidad.
         <br>
         <br>
         <br>
@@ -73,11 +70,8 @@
     
       <!-- Terapias relacionales -->
       <p id="terapia-relacional" class="desc-terapia">
-        <h2>Terapias relacionales</h2>
-        En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
-        <br>
-        <br>
-        A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
+        <h2>Terapia grupal</h2>
+        El propósito de estas terapias es dar solución a problemas relacionales que aparecen en el seno de una familia o de una pareja. Son terapias de duración limitada, donde nos centraremos en el desarrollo de estrategias y habilidades para afrontar conflictos comunes así como individuales.
         <br>
         <br>
         <br>
@@ -122,7 +116,7 @@
     <div class="text-left">  
       <p class="desc-cursos">
         <h2>Cursos</h2>
-        A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
+        Paralelamente a mi labor como psicoterapeuta me dedico a la educación. Mis formaciones se dirigen principalmente a profesionales del sector clínico u otros sectores profesionales aunque son adaptables a todo tipo de públicos.
         <br>
         <br>
         <br>
@@ -136,7 +130,10 @@
     <div class="text-right">  
       <p class="desc-cursos">
         <h2>Conferencias</h2>
-        A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
+        Desde 2015 coordino el Grupo de Trabajo y Psicooncología del COPIB y colaboro con la AECC de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
+        <br>
+        <br>
+        Te invito a conocer mi perfil académico y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
       </p>
     </div>
   </div>

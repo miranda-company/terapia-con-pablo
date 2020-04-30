@@ -12,10 +12,10 @@
       <meta charset="utf-8">
       <meta name="language" content="es">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title><?php echo h($page_title); ?> Terapia con Pablo Rodríguez : psicoterapeuta especialista en procesos de duelo basado en Ibiza, España</title>
+      <title><?php echo h($page_title); ?> Terapia con Pablo : psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género - Ibiza, España</title>
       <meta name="description" content="Here a description of your website.">
-      <meta name="keywords" content="Keyword 1, Keyword 2">
-      <meta name="author" content="La baula www.labaula.net">
+      <meta name="keywords" content="psicoterapeuta, procesos de duelo, psicología, violencia de género, psicooncología, Ibiza, España">
+      <meta name="author" content="Diseño y desarrollo por la baula www.labaula.net">
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
       <meta name="robots" content="all">
       <meta name="theme-color" content="#2d2d2d">
@@ -36,6 +36,10 @@
 
     <!--  Main Nav -->
     <nav id="main-menu">
+      <div class="burger-button">
+        <img src="<?php echo url_for("_media/icon-burger.png")?>">
+      </div>
+      
       <ul id="menu-buttons" class="section-wrapp">
         <li class="menu-button button-selected"><a href="index.php#inicio">Inicio</a></li>
         <li class="menu-button button-on-focus"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
