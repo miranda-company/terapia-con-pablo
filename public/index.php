@@ -6,7 +6,7 @@
 <section id="inicio" class="hero-section">
   <div id="welcome-message" class="section-wrapp">
     <h1>Terapia con Pablo</h1>
-    <p>Mi espacio terapéutico, donde acompaño a personas como tu en su proceso de cambio. ¿Empezamos?</p>
+    <p>Terapia con Pablo es mi espacio terapéutico, donde acompaño a personas como tu en su proceso de cambio. ¿Empezamos? </p>
   </div>
 </section>
 <!-- Section: Inicio ends -->
@@ -57,7 +57,7 @@
     
     <!-- Terapias individuales -->
     <div id="texto-terapia" class="text-left">
-      <p class="desc-terapia">
+      <p id="terapia-individual" class="desc-terapia">
         <h2>Terapias individuales</h2>
         En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
         <br>
@@ -65,13 +65,14 @@
         A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
         <br>
         <br>
-        <a class="cta" href="terapias-individuales.html" target="_self" title="Ver las terapias individuales">
-          Conócelas ->
+        <br>
+        <a class="cta" href="terapias-individuales.php" target="_self" title="Ver las terapias individuales">
+          Conócelas <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>
     
       <!-- Terapias relacionales -->
-      <p class="desc-terapia">
+      <p id="terapia-relacional" class="desc-terapia">
         <h2>Terapias relacionales</h2>
         En muchas ocasiones afrontamos situaciones complicadas que afectan nuestro estado de ánimo produciendo un malestar significativo. Problemas del estado de ánimo como la ansiedad, la depresión, la muerte de un ser querido, una crisis existencial o una nueva situación pueden generar este malestar. 
         <br>
@@ -79,8 +80,9 @@
         A lo largo del proceso terapéutico veremos aquellas herramientas que te permitan gestionar de una manera sana tus emociones para recuperar el equilibrio emocional. 
         <br>
         <br>
-        <a class="cta" href="terapias-relacionales.html" target="_self" title="Ver las terapias relacionales">
-          Conócelas ->
+        <br>
+        <a class="cta" href="terapias-relacionales.php" target="_self" title="Ver las terapias individuales">
+          Conócelas <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>
     </div>
@@ -123,8 +125,9 @@
         A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
         <br>
         <br>
-        <a class="cta" href="cursos.html" target="_self" title="Ver los cursos que ofrezco">
-          Ver cursos ->
+        <br>
+        <a class="cta" href="terapias-individuales.php" target="_self" title="Ver las terapias individuales">
+          Ver cursos <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>
     </div>
@@ -132,13 +135,8 @@
     <!-- Conferencias -->
     <div class="text-right">  
       <p class="desc-cursos">
-        <h2>Formación</h2>
+        <h2>Conferencias</h2>
         A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante de nuestra relación con los miembros de la familia. 
-        <br>
-        <br>
-        <a class="cta" href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi curriculum">
-          Conoce mi cv ->
-        </a>
       </p>
     </div>
   </div>

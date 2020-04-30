@@ -112,11 +112,31 @@ a {
 }
 
 .cta {
-  padding: 12px 50px;
-  font-size: 0.8em;
+  position: relative;
+  padding: 13px 60px;
+  font-size: 14px;
   color: #b88d19;
   border: 1px solid #b88d19;
 }
+.cta:hover {
+  color: #d3a31e;
+  border: 1px solid #d3a31e;
+}
+
+.cta-arrow {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+  .cta-arrow img {
+    position: absolute;
+    height: 100%;
+  }
+  .arrow-right { left: -20px; }
 
 /* ==========================================================================
    3. Main containers
@@ -140,7 +160,7 @@ a {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 150px 0;
+  padding: 150px 0 200px;
 }
 
 .section-wrapp {
@@ -199,14 +219,32 @@ nav {
     display: flex;
     flex-direction: column;
   }
+    .quick-nav-button {
+      position: relative;
+      overflow: hidden;
+    }
+    
     .quick-nav-button a {
       display: block;
       width: 30px;
       height: 30px; 
       background: #f2ede9;
       border: 1px solid #ccc8c4;
-      text-align: center;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
     }
+    .quick-nav-button a:active {
+      background: #fffbf8;
+    }
+
+    .quick-nav-button a img {
+      position: absolute;
+      height: 100%;
+    }
+
+    .arrow-up { left: 0; }
+    .arrow-down { left: -60px; }
 
 
 /* ==========================================================================
@@ -369,6 +407,10 @@ footer {
 /* ==========================================================================
    8. Terapias
    ========================================================================== */
+#terapia-relacional {
+  margin-top: 90px;
+}
+
 .terapias-img-container {
   position: absolute;
   top: -150px;
@@ -481,6 +523,8 @@ footer {
   }
   .section-wrapp { padding: 0 30px; }
   #quick-contact { padding: 0 2em; }
+  .cta { padding: 12px 40px 12px 20px ; }
+  .cta-arrow { right: 10px; }
 
   /* 6. Inicio - media queries */
   #welcome-message p { width: 80%; }
@@ -504,6 +548,11 @@ footer {
 
   /* 10. Formación - media queries */
   .desc-cursos { margin-top: 80px; }
+  .formacion-img-container {
+    top: -285px;
+    width: 580px;
+    right: 0;
+  }
 
   /* 4. Footer - media queries */
   footer { height: 80vh; }
@@ -523,20 +572,23 @@ footer {
     padding: 0;
     width: 100%;
   }
-  .terapias-img-container {
+  .quote-section { margin-bottom: 0; }
+  #formacion { padding: 0; }
+  .terapias-img-container, .formacion-img-container {
     display: flex;
     width: 100%;
     top: -130px;
     right: 0;
   }
-    .terapia-img {
+    .terapia-img, .formacion-img {
       margin-left: 7px;
     }
 
-  #footer-external-info {
-    margin-top: 10px;
+  #footer-external-info { margin-top: 10px; }
+  #footer-header h2{
+    width: 120px;
+    margin-bottom: 33px;
   }
-  
 }
 
 

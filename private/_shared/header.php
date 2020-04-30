@@ -49,8 +49,8 @@
     <!--  Quick Nav -->
     <div id="quick-nav">
       <ul class="quick-nav-buttons">
-        <li class="quick-nav-button"><a href="#inicio">X</a></li>
-        <li class="quick-nav-button"><a href="#sobre-pablo">X</a></li>
+        <li class="quick-nav-button"><a href="#inicio"> <img class="arrow-up" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
+        <li class="quick-nav-button"><a href="#sobre-pablo"> <img class="arrow-down" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
       </ul>
     </div>
     <!-- Nav ends -->
