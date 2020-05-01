@@ -2,6 +2,7 @@
    Style index: 
    ========================================================================== */
 /* 
+    Global
     0. Fonts
     1. HTML and body elments
     2. Global classes
@@ -9,9 +10,15 @@
     4. Nav
     5. Footer
 
+    Main page
     6. Inicio
     7. Sobre Pablo
     8. Terapias
+    9. Quote
+    10. Formación
+
+    Inner pages
+    11. Terapias individuales
 
     *. Media queries
 */
@@ -95,11 +102,20 @@ a {
   left:0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #f2ede9;
   pointer-events: none;
   z-index: 1000;
   display: none;
 }
+
+.key-image {
+  width: 50%;
+  height: auto;
+}
+  .key-image img {
+    width: 100%;
+    height: auto;
+  }
 
 .text-left {
   width: 50%;
@@ -141,7 +157,7 @@ a {
 /* ==========================================================================
    3. Main containers
    ========================================================================== */
-.main-container {
+.page-container {
   position: relative;
   width: 100%;
   min-height: 100%;
@@ -186,32 +202,38 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
   margin: 0;
   padding: 15px 0;
   background-color: #f2ede9;
   z-index: 102;
 }
-  #menu-buttons {
+  #menu {
     display: flex;
     justify-content: space-evenly;
   }
-      .menu-button a {
+      .nav-button a {
+        position: relative;
         display: block;
         padding: 1px 10px;
         font-size: 0.8em;
         font-weight: 400;
         color: #4f5956;
       }
-      .button-on-focus {
-        border-bottom: 1px solid #cacac6;
+      .nav-button:hover { border-bottom: 1px solid #cacac6; }
+      .button-selected { border: 1px solid #cacac6; }
+      .nav-indicator {
+        position: absolute;
+        bottom: -10px;
+        left: 46%;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background-color: #c7a865;
       }
-      .button-selected {
-        border: 1px solid #cacac6;
-      }
-
+      
 .burger-button {
   display: none; 
-  z-index: 200;
   position: absolute;
   top: 0;
   left: 50vw;
@@ -221,10 +243,14 @@ nav {
   background-color: #f2ede9;
   border-radius: 0 0 10px 10px;
   border: 1px solid #ccc8c4;
+  overflow: hidden;
+  z-index: 200;
 }
 .burger-button img {
+  position: absolute;
+  top: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 #quick-nav {
@@ -241,7 +267,6 @@ nav {
       position: relative;
       overflow: hidden;
     }
-    
     .quick-nav-button a {
       display: block;
       width: 30px;
@@ -252,18 +277,23 @@ nav {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
     }
-    .quick-nav-button a:active {
-      background: #fffbf8;
-    }
-
     .quick-nav-button a img {
       position: absolute;
       height: 100%;
     }
-
+    .quick-nav-button a:active { background: #fffbf8; }
     .arrow-up { left: 0; }
     .arrow-down { left: -60px; }
 
+.bread-crumbs-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 45px;
+}
+  .bread-crumbs-menu li {
+    margin-right: 15px !important;
+  }
 
 /* ==========================================================================
    5. Footer
@@ -398,15 +428,7 @@ footer {
   z-index: 2;
 }
 
-.portrait {
-  margin-top: 65px;
-  width: 50%;
-  height: auto;
-}
-  .portrait img {
-    width: 100%;
-    height: auto;
-  }
+#retrato-pablo { margin-top: 65px; }
 
 .bg-decor-element {
   position: absolute;
@@ -517,6 +539,41 @@ footer {
       width: 100%;
       height: auto;
     }
+
+/* ==========================================================================
+   11. Terapias individuales
+   ========================================================================== */
+.img-special {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  
+  z-index: -1;
+}
+  .img-special img {
+    width: 100%;
+    height: auto;
+  }
+  .img-special-left {
+    top: -15%;
+    left: 100px;
+  }
+  .img-special-right {
+    top: -15%;
+    right: 100px;
+  }
+
+.text-special {
+  width: 50%;
+  padding: 30px;
+  background-color: rgba(242, 237, 233, 0.5);  
+}
+  .text-special-left {
+    margin-left: 10%;
+  }
+  .text-special-right {
+    margin-left: 40%;
+  }
   
 
 
@@ -524,7 +581,7 @@ footer {
    *. Media queries
    ========================================================================== */
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1300px){
   body { font-size: 17px; }
 }   
 
@@ -548,7 +605,7 @@ footer {
   #welcome-message p { width: 80%; }
 
   /* 7. Sobre Pablo - media queries */
-  .portrait {
+  .key-image {
     width: 35%;
   }
   .text-left, .text-right {
@@ -574,19 +631,61 @@ footer {
 
   /* 4. Footer - media queries */
   footer { height: 80vh; }
+
+
+  /* 11. Terapias individuales - media queries */
+  #terapias-individuales-home {
+    padding-top: 100px;
+  }
+
+  .text-special {
+    width: 60%;
+  }
+
+  .img-special-left {
+    left: 30px;
+  }
+  .img-special-right {
+    right: 30px;
+  }
 }
 
 @media screen and (max-width: 450px){
-  nav { background-color: rgba(255, 255, 255, 0); }
-  .menu-button { display: none; }
+  .page-container {
+    overflow-y: hidden;
+  }
+  
+  nav { 
+    display: none !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #menu { 
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-button {
+    font-size: 1.5em;
+  }
+  .nav-button a {
+    padding: 10px;
+  }
+
   .burger-button {
     display: block; 
+  }
+
+  .burger-button img {
+    top: -30px;
   }
 
   /* 6. Inicio - media queries */
   #welcome-message { margin: 55vh auto; }
   .main-content { flex-direction: column; }
-  .portrait { 
+  .key-image { 
     margin-top: 0;
     width: 100%;
     height: auto;
@@ -612,6 +711,19 @@ footer {
     width: 120px;
     margin-bottom: 33px;
   }
+
+  #terapias-individuales-key-image { display: none; }
+  .text-special { 
+    width: 100%; 
+    padding: 30px 0;
+  }
+  .text-special-left, .text-special-right {
+    margin-left: 0;
+  }
+
+  .img-special { width: 50%; }
+  .img-special-left, .img-special-right { top: -20%; }
+  
 }
 
 @media screen and (max-height: 475px){

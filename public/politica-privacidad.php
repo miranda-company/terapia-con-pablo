@@ -1,5 +1,4 @@
 <?php require_once("../private/initialize.php"); ?>
-<?php $page_title = "" ?>
 <?php include(SHARED_PATH . "/header.php"); ?>
 
 <!-- Section: Politica de privacidad -->

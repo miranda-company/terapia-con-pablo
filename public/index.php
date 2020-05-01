@@ -1,5 +1,4 @@
 <?php require_once("../private/initialize.php"); ?>
-<?php $page_title = "" ?>
 <?php include(SHARED_PATH . "/header.php"); ?>
 
 <!-- Section: Inicio header -->
@@ -16,7 +15,7 @@
   <div id="decor-1" class="bg-decor-element"></div>
 
   <div class="section-wrapp main-content">
-    <div class="portrait">
+    <div id="retrato-pablo" class="key-image">
       <img src="_media/img-retrato-pablo.jpg" alt="Pablo Rodríguez González" title="Pablo Rodríguez González">
     </div>
 
@@ -32,7 +31,7 @@
         Entiendo la psicoterapia como un trabajo en equipo. Juntos trabajaremos en el desarrollo de tu bienestar emocional a partir del autoconocimiento y la introspección. Mi papel consiste en guiarte a lo largo de este proceso para que logres sanar heridas, cerrar asuntos inconclusos y establecer una relación más sana contigo y con los demás. 
         <br>
         <br>
-        Mi consulta está en el centro de Ibiza, en el Centro Avanza, aunque también me puedes encontrar en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer"><strong>Asociación Española Contra el Cáncer</strong></a> donde trabajo como psicooncólogo.
+        Mi consulta está en el centro de Ibiza, en el Centro Avanza, aunque también me puedes encontrar en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer">Asociación Española Contra el Cáncer</a> o a través de mis canales digitales dónde ofrezco terapia en línea.
       </p>
     </div>
   </div>
@@ -130,10 +129,10 @@
     <div class="text-right">  
       <p class="desc-cursos">
         <h2>Conferencias</h2>
-        Desde 2015 coordino el Grupo de Trabajo y Psicooncología del COPIB y colaboro con la AECC de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
+        Desde 2015 coordino el <a href="http://www.copib.es/es/grupos-de-trabajo" target="_blank" title="Conoce COPIB">Grupo de Trabajo y Psicooncología del COPIB</a> y colaboro con la <a href="https://www.aecc.es" target="_blank" title="Conoce AECC">AECC</a> de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
         <br>
         <br>
-        Te invito a conocer mi perfil académico y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
+        Te invito a conocer <a href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi perfil en LinkedIn">mi perfil académico</a> y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
       </p>
     </div>
   </div>

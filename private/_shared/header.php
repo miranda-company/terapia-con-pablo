@@ -35,17 +35,17 @@
     <![endif]-->
 
     <!--  Main Nav -->
-    <nav id="main-menu">
-      <div class="burger-button">
+    <nav>
+      <div id="burger-button" class="burger-button">
         <img src="<?php echo url_for("_media/icon-burger.png")?>">
       </div>
       
-      <ul id="menu-buttons" class="section-wrapp">
-        <li class="menu-button button-selected"><a href="index.php#inicio">Inicio</a></li>
-        <li class="menu-button button-on-focus"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
-        <li class="menu-button"><a href="index.php#terapias">Terapias</a></li>
-        <li class="menu-button"><a href="index.php#formacion">Formación</a></li>
-        <li class="menu-button"><a href="index.php#contacto">Contacto</a></li>
+      <ul id="menu" class="section-wrapp">
+        <li class="nav-button"><a href="index.php#inicio">Inicio</a></li>
+        <li class="nav-button"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
+        <li class="nav-button"><a href="index.php#terapias">Terapias<span class="nav-indicator"></span></a></li>
+        <li class="nav-button"><a href="index.php#formacion">Formación</a></li>
+        <li class="nav-button"><a href="index.php#contacto">Contacto</a></li>
       </ul>
     </nav>
     <!-- Main Nav ends -->
@@ -60,4 +60,4 @@
     <!-- Nav ends -->
 
     <!-- Main container -->
-    <div class="main-container">
+    <div class="page-container">
