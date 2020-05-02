@@ -5,8 +5,8 @@
     Global
     0. Fonts
     1. HTML and body elments
-    2. Global classes
-    3. Main containers
+    2. Main containers
+    3. Global classes
     4. Nav
     5. Footer
 
@@ -36,6 +36,7 @@
   * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    outline: none;
   }
 
 
@@ -94,7 +95,54 @@ a {
 }
 
 /* ==========================================================================
-   2. Global classes
+   2. Main containers
+   ========================================================================== */
+   .page-container {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .normal-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 200px;
+  }
+
+  .special-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px 0 100px;
+  }
+  
+  .section-wrapp {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+    /* border: 1px solid red; */
+  }
+  
+  .quote-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 165px;
+  }
+
+/* ==========================================================================
+   3. Global classes
    ========================================================================== */
 .page-overlay {
   position: fixed;
@@ -154,45 +202,68 @@ a {
   }
   .arrow-right { left: -20px; }
 
-/* ==========================================================================
-   3. Main containers
-   ========================================================================== */
-.page-container {
-  position: relative;
-  width: 100%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-}
+  form {
+    padding: 30px;
+  }
 
-.hero-section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
+  form label {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #404c4b;
+    cursor: pointer;
+  }
 
-.normal-section {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 150px 0 200px;
-}
+  form input[type="radio"] {
+    margin: 15px 15px 0 0;
+    cursor: pointer;
+  }
 
-.section-wrapp {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 100px;
-  /* border: 1px solid red; */
-}
+  .input-form {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border: 1px solid #d7d2cf;
+    box-shadow: inset -5px 5px 10px -10px #797774; 
+    padding: 1em;
+  }
+  .input-form:focus {
+    border: 1px solid #afaaa7;
+  }
 
-.quote-section {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-bottom: 165px;
-}
+  textarea {
+    resize: none;
+    line-height: 1.8em;
+  }
+
+  .cta-form {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 13px 60px !important;
+  }
+
+  .form-sent-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.7);
+    z-index: 103;
+  }
+
+  .form-sent-message {
+    width: 40%;
+    height: 170px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    -webkit-box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
+    box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
+  }
 
 /* ==========================================================================
    4. Nav
@@ -244,7 +315,7 @@ nav {
   border-radius: 0 0 10px 10px;
   border: 1px solid #ccc8c4;
   overflow: hidden;
-  z-index: 200;
+  z-index: 102;
 }
 .burger-button img {
   position: absolute;

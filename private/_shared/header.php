@@ -1,7 +1,7 @@
 <?php
     //Check if page title has been set and if not set a default.
     if(!isset($page_title)){
-      $page_title = "Default page title goes here";
+      $page_title = "Terapia con Pablo: psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género @ Ibiza, España";
     }
 ?>
 
@@ -12,7 +12,7 @@
       <meta charset="utf-8">
       <meta name="language" content="es">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title><?php echo h($page_title); ?> Terapia con Pablo : psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género - Ibiza, España</title>
+      <title><?php echo h($page_title); ?></title>
       <meta name="description" content="Here a description of your website.">
       <meta name="keywords" content="psicoterapeuta, procesos de duelo, psicología, violencia de género, psicooncología, Ibiza, España">
       <meta name="author" content="Diseño y desarrollo por la baula www.labaula.net">

@@ -1,5 +1,7 @@
-<?php require_once("../private/initialize.php"); ?>
-<?php include(SHARED_PATH . "/header.php"); ?>
+<?php
+    require_once("../private/initialize.php"); 
+    include(SHARED_PATH . "/header.php");
+?>
 
 <!-- Section: Inicio header -->
 <section id="inicio" class="hero-section">

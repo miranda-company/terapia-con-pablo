@@ -7,7 +7,7 @@
 
   <!-- Quick contact -->
   <div id="quick-contact">
-    <p>Pablo Rodríguez González · 722 639 555 · <a href="#contacto"><strong>Contacto</strong></a></p>
+    <p>Pablo Rodríguez González · +34 777 639 555 · <a href="#contacto"><strong>Contacto</strong></a></p>
   </div>
   <!-- Quick contact ends -->
   

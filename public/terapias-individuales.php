@@ -1,5 +1,25 @@
-<?php require_once("../private/initialize.php"); ?>
-<?php include(SHARED_PATH . "/header.php"); ?>
+<?php
+    require_once("../private/initialize.php"); 
+    include(SHARED_PATH . "/header.php");
+?>
+
+<?php 
+    if( is_post_request() ) {
+        $optionSelected = $_POST["option-selected"];
+        $message = $_POST["message"];
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+
+        $to = "rodolfo.mcompany@gmail.com";
+        $subject = "Nuevo contacto Terapia con Pablo";
+        $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer una terapia individual del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
+        
+        echo "<div class='form-sent-wrapper'><div class='form-sent-message'><h2>Gracias</h2><p>Mensaje enviado, " . $name . ". Pronto me pondré en contacto contigo.</p></div></div>";
+
+        // Send email
+        mail($to, $subject, $emailBody);
+    } 
+?>
 
 <!-- Section: Terapias individuales -->
 <section id="terapias-individuales-home" class="normal-section">
@@ -32,12 +52,12 @@
         <div id="terapias-individuales-key-image" class="key-image">
             <img src="_media/img-terapias-individuales.jpg" alt="Terapias individuales con Pablo Rodríguez" title="Terapias individuales con Pablo">
         </div>
-  </div>
+    </div>
 </section>
 <!-- Section: Terapias individuales ends -->
 
 <!-- Section: Terapia individual 1 -->
-<section id="terapia-individual-1" class="normal-section">
+<section id="terapia-individual-1" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -58,7 +78,7 @@
 <!-- Section: Terapia individual 1 ends -->
 
 <!-- Section: Terapia individual 2 -->
-<section id="terapia-individual-2" class="normal-section">
+<section id="terapia-individual-2" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -79,7 +99,7 @@
 <!-- Section: Terapia individual 2 ends -->
 
 <!-- Section: Terapia individual 3 -->
-<section id="terapia-individual-3" class="normal-section">
+<section id="terapia-individual-3" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -100,7 +120,7 @@
 <!-- Section: Terapia individual 3 ends -->
 
 <!-- Section: Terapia individual 4 -->
-<section id="terapia-individual-4" class="normal-section">
+<section id="terapia-individual-4" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -121,7 +141,7 @@
 <!-- Section: Terapia individual 4 ends -->
 
 <!-- Section: Terapia individual 5 -->
-<section id="terapia-individual-5" class="normal-section">
+<section id="terapia-individual-5" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -142,7 +162,7 @@
 <!-- Section: Terapia individual 5 ends -->
 
 <!-- Section: Terapia individual 6 -->
-<section id="terapia-individual-6" class="normal-section">
+<section id="terapia-individual-6" class="special-section">
 
     <div class="section-wrapp main-content">
 
@@ -161,6 +181,45 @@
 
 </section>
 <!-- Section: Terapia individual 6 ends -->
+
+<!-- Section: Formulario de contacto -->
+<section id="contact-form" class="normal-section">
+    <div class="section-wrapp main-content">
+        <div>
+            <h2>¿Tienes alguna duda?</h2>
+            <p>Cuéntamela, veamos en qué puedo ayudarte.</p>
+
+             <form action="<?php echo url_for("terapias-individuales.php") ?>" method="post">
+                <label for="option-selected"><strong>¿Qué tipo de terapia te interesa?</strong></label><br>
+                <input type="radio" name="option-selected" value="Terapia online" id="terapia-online"> Terapia online <br>
+                <input type="radio" name="option-selected" value="Trastornos del ánimo" id="trastornos-del-animo"> Trastornos del ánimo<br>
+                <input type="radio" name="option-selected" value="Procesos de duelo" id="procesos-de-duelo"> Procesos de duelo <br>
+                <input type="radio" name="option-selected" value="Psicooncología" id="psicooncologia"> Psicooncología <br>
+                <input type="radio" name="option-selected" value="Dificultades sexuales" id="dificultades-sexuales"> Dificultades sexuales <br>
+                <input type="radio" name="option-selected" value="Terapia adolescentes" id="terapia-adolescentes"> Terapia adolescentes <br>
+                <input type="radio" name="option-selected" value="No lo tengo claro" id="no-sabe"> No lo tengo claro <br>
+                <br>
+                <br>
+                <label for="message"><strong>¿Por qué quieres hacer terapia?</strong></label><br>
+                <textarea class="input-form" name="message" id="mensaje" cols="50" rows="5" placeholder="cuéntame un poco de tus motivos (opcional)"></textarea>
+                <br>
+                <br>
+                <label for="name"><strong>Nombre</strong></label><br>
+                <input class="input-form" type="text" name="name" id="name" placeholder="ingresa tu nombre" required>
+                <br>
+                <br>
+                <label for="email"><strong>E-mail</strong></label><br>
+                <input class="input-form" type="email" name="email" id="email" placeholder="ingresa un e-mail" required>
+                <br>
+                <br>
+                <input class="cta cta-form" type="submit" value="Enviar">
+             </form>
+        </div>
+        
+        
+    </div>
+</section>
+<!-- Section: Formulario de contacto ends -->
 
 <?php include(SHARED_PATH . "/footer.php"); ?>
 
