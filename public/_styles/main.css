@@ -329,25 +329,25 @@ nav {
     display: flex;
     justify-content: space-evenly;
   }
-      .nav-button a {
-        position: relative;
-        display: block;
-        padding: 1px 10px;
-        font-size: 0.8em;
-        font-weight: 400;
-        color: #4f5956;
-      }
-      .nav-button:hover { border-bottom: 1px solid #cacac6; }
-      .button-selected { border: 1px solid #cacac6; }
-      .nav-indicator {
-        position: absolute;
-        bottom: -10px;
-        left: 46%;
-        width: 6px;
-        height: 6px;
-        border-radius: 100%;
-        background-color: #c7a865;
-      }
+    .nav-button a {
+      position: relative;
+      display: block;
+      padding: 1px 10px;
+      font-size: 0.8em;
+      font-weight: 400;
+      color: #4f5956;
+    }
+    .nav-button:hover { border-bottom: 1px solid #d4d4d4; }
+    .button-selected { border: 1px solid #d4d4d4; }
+    .nav-indicator {
+      position: absolute;
+      bottom: -10px;
+      left: 46%;
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+      background-color: #c7a865;
+    }
       
 .burger-button {
   display: none; 
@@ -379,7 +379,10 @@ nav {
   #quick-nav-buttons {
     display: flex;
     flex-direction: column;
-  }
+  } 
+    .quick-nav-inactive {
+      opacity: 0.2;
+    }
     .quick-nav-button {
       position: relative;
       overflow: hidden;
@@ -401,7 +404,7 @@ nav {
     .quick-nav-button a:active { background: #fffbf8; }
     .arrow-up { left: 0; }
     .arrow-down { left: -60px; }
-
+    
 .bread-crumbs-menu {
   display: flex;
   flex-direction: row;
@@ -437,25 +440,31 @@ footer {
   #faro-animation {
     position: absolute;
     right: 60px; 
-    width: 100px;
+    width: 135px;
   }
     #faro {
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 40px;
-      height: 60px;
-      background-color: red;
+      width: 75px;
+      height: 100px;
     }
+      #faro img {
+        width: 100%;
+        height: auto; 
+      }
 
     #boat {
       position: absolute;
       bottom: 0;
-      left: 0;
-      width: 40px;
-      height: 20px;
-      background-color: red;
+      left: 0px;
+      width: 55px;
+      height: 33px;
     }
+      #boat img {
+        width: 100%;
+        height: auto; 
+      }
 
 .footer-info {
   color: #99cccc;

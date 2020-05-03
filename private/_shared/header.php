@@ -26,9 +26,11 @@
 
       <!-- Scripts -->
       <script type="text/javascript" src="<?php echo url_for("_scripts/vendor/tweenmax.min.js")?>"></script>
+      <script type="text/javascript" src="<?php echo url_for("_scripts/vendor/scrollmagic.min.js")?>"></script>
+      <script type="text/javascript" src="<?php echo url_for("_scripts/vendor/debugindicators.min.js")?>"></script>
   </head>
 
-  <body id="body">
+  <body id="body" class="scrollContent">
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
@@ -40,11 +42,11 @@
       </div>
       
       <ul id="menu" class="section-wrapp">
-        <li class="nav-button"><a href="index.php#inicio">Inicio</a></li>
-        <li class="nav-button"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
-        <li class="nav-button"><a href="index.php#terapias">Terapias<span class="nav-indicator"></span></a></li>
-        <li class="nav-button"><a href="index.php#formacion">Formación</a></li>
-        <li class="nav-button"><a href="index.php#contacto">Contacto</a></li>
+        <li id="nav-btn-inicio" class="nav-button"><a href="index.php#inicio">Inicio</a></li>
+        <li id="nav-btn-sobre" class="nav-button"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
+        <li id="nav-btn-terapias" class="nav-button"><a href="index.php#terapias">Terapias<span class="nav-indicator"></span></a></li>
+        <li id="nav-btn-formacion" class="nav-button"><a href="index.php#formacion">Formación</a></li>
+        <li id="nav-btn-contacto" class="nav-button"><a href="index.php#contacto">Contacto</a></li>
       </ul>
     </nav>
     <!-- Main Nav ends -->
@@ -52,8 +54,8 @@
     <!--  Quick Nav -->
     <div id="quick-nav">
       <ul class="quick-nav-buttons">
-        <li class="quick-nav-button"><a href="#inicio"> <img class="arrow-up" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
-        <li class="quick-nav-button"><a href="#sobre-pablo"> <img class="arrow-down" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
+        <li id="quick-nav-up" class="quick-nav-button"><a href="#inicio"> <img class="arrow-up" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
+        <li id="quick-nav-down" class="quick-nav-button"><a href="#sobre-pablo"> <img class="arrow-down" src="<?php echo url_for("_media/icon-arrows.png")?>"> </a></li>
       </ul>
     </div>
     <!-- Nav ends -->

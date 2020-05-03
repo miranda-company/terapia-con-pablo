@@ -20,8 +20,8 @@
       <div class="section-wrapp">
       <h2>Estamos en contacto</h2>
         <div id="faro-animation">
-          <div id="faro"></div>
-          <div id="boat"></div>
+          <div id="faro"><img src="_media/img-faro.png"></div>
+          <div id="boat"><img src="_media/img-barco.png"></div>
         </div>
       </div>
   </section>
