@@ -26,7 +26,6 @@
 
       <!-- Scripts -->
       <script type="text/javascript" src="<?php echo url_for("_scripts/vendor/tweenmax.min.js")?>"></script>
-      <script type="text/javascript" src="<?php echo url_for("_scripts/vendor/jquery.min.js") ?>"></script>
   </head>
 
   <body id="body">

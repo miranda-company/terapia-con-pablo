@@ -2,7 +2,11 @@
   <!-- Main container ends -->
   
   <!-- Page overlay -->
-  <div id="page-overlay" class="page-overlay"></div>
+  <div id="page-overlay" class="page-overlay">
+    <div class="loader"></div>
+    <br>
+    <h5>www.terapiaconpablo.com</h5>
+  </div>
   <!-- Page overlay ends -->
 
   <!-- Quick contact -->
@@ -70,7 +74,11 @@
 
   </footer>
   <!-- Footer ends -->
+  <script>
+    var page = "<?php echo $page ?>";
+  </script>
 
+  <script type="text/javascript" src="<?php echo url_for('_scripts/quotes.js')?>"></script>
   <script type="text/javascript" src="<?php echo url_for('_scripts/main.js')?>"></script>
 
 </body>

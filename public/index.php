@@ -1,6 +1,7 @@
 <?php
     require_once("../private/initialize.php"); 
     include(SHARED_PATH . "/header.php");
+    $page = "main";
 ?>
 
 <!-- Section: Inicio header -->
@@ -18,7 +19,7 @@
 
   <div class="section-wrapp main-content">
     <div id="retrato-pablo" class="key-image">
-      <img src="_media/img-retrato-pablo.jpg" alt="Pablo Rodríguez González" title="Pablo Rodríguez González">
+      <img src="_media/keyimg-retrato-pablo.jpg" alt="Pablo Rodríguez González" title="Pablo Rodríguez González">
     </div>
 
     <div class="text-right">
@@ -90,9 +91,9 @@
   <div id="quote-bg-white-overlay"></div>
   <div id="quote-border-top" class="quote-border"></div>
   <div id="quote-border-bottom" class="quote-border"></div>
-  <div id="quote-text" class="section-wrapp">
-    <p>“ La buena vida es un proceso, no un estado del ser. Se trata de una dirección, no un destino. ”</p>
-    <h2>- Carl Rogers -</h2>
+  <div id="quote-wrapper" class="section-wrapp">
+    <p id="quote-text">“ La buena vida es un proceso, no un estado del ser. Se trata de una dirección, no un destino. ”</p>
+    <h2 id="quote-author">- Carl Rogers -</h2>
   </div>
 </section>
 <!-- Section: Quote ends -->

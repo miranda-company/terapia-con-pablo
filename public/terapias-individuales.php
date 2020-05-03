@@ -1,6 +1,7 @@
 <?php
     require_once("../private/initialize.php"); 
     include(SHARED_PATH . "/header.php");
+    $page = "inner";
 ?>
 
 <?php 
@@ -14,7 +15,7 @@
         $subject = "Nuevo contacto Terapia con Pablo";
         $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer una terapia individual del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
         
-        echo "<div class='form-sent-wrapper'><div class='form-sent-message'><h2>Gracias</h2><p>Mensaje enviado, " . $name . ". Pronto me pondré en contacto contigo.</p></div></div>";
+        echo "<div id='success-message' class='form-sent-wrapper'><div class='form-success-message'><h2>Mensaje enviado</h2><p> " . $name . " pronto me pondré en contacto contigo.</p></div></div>";
 
         // Send email
         mail($to, $subject, $emailBody);
@@ -49,9 +50,7 @@
 
         </div>
 
-        <div id="terapias-individuales-key-image" class="key-image">
-            <img src="_media/img-terapias-individuales.jpg" alt="Terapias individuales con Pablo Rodríguez" title="Terapias individuales con Pablo">
-        </div>
+        <div id="terapias-individuales-key-image" class="special-key-image"></div>
     </div>
 </section>
 <!-- Section: Terapias individuales ends -->
@@ -191,7 +190,7 @@
 
              <form action="<?php echo url_for("terapias-individuales.php") ?>" method="post">
                 <label for="option-selected"><strong>¿Qué tipo de terapia te interesa?</strong></label><br>
-                <input type="radio" name="option-selected" value="Terapia online" id="terapia-online"> Terapia online <br>
+                <input type="radio" name="option-selected" id="option-selected" value="Terapia online" id="terapia-online"> Terapia online <br>
                 <input type="radio" name="option-selected" value="Trastornos del ánimo" id="trastornos-del-animo"> Trastornos del ánimo<br>
                 <input type="radio" name="option-selected" value="Procesos de duelo" id="procesos-de-duelo"> Procesos de duelo <br>
                 <input type="radio" name="option-selected" value="Psicooncología" id="psicooncologia"> Psicooncología <br>
@@ -201,7 +200,7 @@
                 <br>
                 <br>
                 <label for="message"><strong>¿Por qué quieres hacer terapia?</strong></label><br>
-                <textarea class="input-form" name="message" id="mensaje" cols="50" rows="5" placeholder="cuéntame un poco de tus motivos (opcional)"></textarea>
+                <textarea class="input-form" name="message" id="message" cols="50" rows="5" placeholder="cuéntame un poco de tus motivos (opcional)"></textarea>
                 <br>
                 <br>
                 <label for="name"><strong>Nombre</strong></label><br>

@@ -145,16 +145,28 @@ a {
    3. Global classes
    ========================================================================== */
 .page-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: #f2ede9;
   pointer-events: none;
   z-index: 1000;
-  display: none;
 }
+  .page-overlay h5 {
+    color: #c7c2bf;
+    letter-spacing: 0.3em;
+  }
+  .loader{
+    width: 80px;
+    height: 80px;
+    background-color: #cbc7c3;
+  }
 
 .key-image {
   width: 50%;
@@ -165,6 +177,14 @@ a {
     height: auto;
   }
 
+.special-key-image { 
+  width: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .text-left {
   width: 50%;
   padding-right: 50px;
@@ -174,6 +194,9 @@ a {
   width: 50%;
   padding-left: 50px;
 }
+
+.overflow-hidden { overflow: hidden; }
+.display-none { display: none; }
 
 .cta {
   position: relative;
@@ -202,22 +225,49 @@ a {
   }
   .arrow-right { left: -20px; }
 
-  form {
-    padding: 30px;
+  .img-special {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    
+    z-index: -1;
   }
-
+    .img-special img {
+      width: 100%;
+      height: auto;
+    }
+    .img-special-left {
+      top: -15%;
+      left: 100px;
+    }
+    .img-special-right {
+      top: -15%;
+      right: 100px;
+    }
+  
+  .text-special {
+    width: 50%;
+    padding: 30px;
+    background-color: rgba(242, 237, 233, 0.5);  
+  }
+    .text-special-left {
+      margin-left: 10%;
+    }
+    .text-special-right {
+      margin-left: 40%;
+    }
+  
+  form { padding: 30px; }
   form label {
     display: inline-block;
     margin-bottom: 15px;
     color: #404c4b;
     cursor: pointer;
   }
-
   form input[type="radio"] {
     margin: 15px 15px 0 0;
     cursor: pointer;
   }
-
   .input-form {
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -228,19 +278,16 @@ a {
   .input-form:focus {
     border: 1px solid #afaaa7;
   }
-
   textarea {
     resize: none;
     line-height: 1.8em;
   }
-
   .cta-form {
     background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     margin-top: 30px;
     padding: 13px 60px !important;
   }
-
   .form-sent-wrapper {
     position: absolute;
     top: 0;
@@ -250,19 +297,18 @@ a {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255, 250, 246, 0.9);
     z-index: 103;
   }
-
-  .form-sent-message {
-    width: 40%;
-    height: 170px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
+  .form-success-message {
+    width: 35%;
+    height: auto;
+    background-color: #fffbf7;
+    border: 1px solid #ebe8e0;
     padding: 30px;
-    -webkit-box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
-    -moz-box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
-    box-shadow: 4px 4px 2px -5px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 4px 4px 2px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 2px -5px rgba(0,0,0,1);
+    box-shadow: 4px 4px 2px -5px rgba(0,0,0,1);
   }
 
 /* ==========================================================================
@@ -583,8 +629,10 @@ footer {
   background: url(../_media/bg-quote-border-bottom.png) repeat-x;
 }
 
-#quote-text {
+#quote-wrapper {
   text-align: center;
+  font-size: 1.3em;
+  line-height: 1.6em;
   padding: 0 180px;
 }
 
@@ -614,37 +662,9 @@ footer {
 /* ==========================================================================
    11. Terapias individuales
    ========================================================================== */
-.img-special {
-  position: absolute;
-  width: 40%;
-  height: auto;
-  
-  z-index: -1;
+#terapias-individuales-key-image {
+     background: url(../_media/keyimg-terapias-individuales.jpg) no-repeat center center; 
 }
-  .img-special img {
-    width: 100%;
-    height: auto;
-  }
-  .img-special-left {
-    top: -15%;
-    left: 100px;
-  }
-  .img-special-right {
-    top: -15%;
-    right: 100px;
-  }
-
-.text-special {
-  width: 50%;
-  padding: 30px;
-  background-color: rgba(242, 237, 233, 0.5);  
-}
-  .text-special-left {
-    margin-left: 10%;
-  }
-  .text-special-right {
-    margin-left: 40%;
-  }
   
 
 
@@ -690,7 +710,7 @@ footer {
   }
 
   /* 9. Quote - media queries */
-  #quote-text { padding: 0 20px; }
+  #quote-wrapper { padding: 0 20px; }
 
   /* 10. Formación - media queries */
   .desc-cursos { margin-top: 80px; }
