@@ -1,7 +1,8 @@
 <?php
+    $pageType = "inner";
+    $page = "terapias-individuales";
     require_once("../private/initialize.php"); 
     include(SHARED_PATH . "/header.php");
-    $page = "inner";
 ?>
 
 <?php 
@@ -31,7 +32,7 @@
 
             <div class="bread-crumbs">
                 <ul class="bread-crumbs-menu">
-                    <li class="nav-button"><a href="index.php#terapias">Terapias<span class="nav-indicator"></span></a></li>
+                    <li class="nav-button"><a href="index.php#terapias">Terapias<span class="page-indicator"></span></a></li>
                     <li> > </li>
                     <li class="nav-button button-selected"><a>Individuales</a></li>
                 </ul>

@@ -1,8 +1,12 @@
 <?php
     //Check if page title has been set and if not set a default.
-    if(!isset($page_title)){
-      $page_title = "Terapia con Pablo: psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género @ Ibiza, España";
+    if(!isset($pageTitle)){
+      $pageTitle = "Terapia con Pablo: psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género @ Ibiza, España";
     }
+
+    //Set inner page indicator on nav
+    $pageIndTerapias = ($page == "terapias-individuales" || $page == "terapias-grupales") ? True : False; 
+    $pageIndCursos = ($page == "cursos") ? True : False; 
 ?>
 
 <!doctype html>
@@ -12,7 +16,7 @@
       <meta charset="utf-8">
       <meta name="language" content="es">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title><?php echo h($page_title); ?></title>
+      <title><?php echo h($pageTitle); ?></title>
       <meta name="description" content="Here a description of your website.">
       <meta name="keywords" content="psicoterapeuta, procesos de duelo, psicología, violencia de género, psicooncología, Ibiza, España">
       <meta name="author" content="Diseño y desarrollo por la baula www.labaula.net">
@@ -44,8 +48,8 @@
       <ul id="menu" class="section-wrapp">
         <li id="nav-btn-inicio" class="nav-button"><a href="index.php#inicio">Inicio</a></li>
         <li id="nav-btn-sobre" class="nav-button"><a href="index.php#sobre-pablo">Sobre Pablo</a></li>
-        <li id="nav-btn-terapias" class="nav-button"><a href="index.php#terapias">Terapias<span class="nav-indicator"></span></a></li>
-        <li id="nav-btn-formacion" class="nav-button"><a href="index.php#formacion">Formación</a></li>
+        <li id="nav-btn-terapias" class="nav-button"><a href="index.php#terapias">Terapias <?php if($pageIndTerapias){ echo "<span class='page-indicator'></span>"; } ?> </a></li>
+        <li id="nav-btn-formacion" class="nav-button"><a href="index.php#formacion">Formación <?php if($pageIndCursos){ echo "<span class='page-indicator'></span>"; } ?> </a></li>
         <li id="nav-btn-contacto" class="nav-button"><a href="index.php#contacto">Contacto</a></li>
       </ul>
     </nav>

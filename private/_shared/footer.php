@@ -3,7 +3,7 @@
   
   <!-- Page overlay -->
   <div id="page-overlay" class="page-overlay">
-    <div class="loader"></div>
+    <div class="loader"><img src="<?php echo url_for('_media/img-loader.gif')?>"></div>
     <br>
     <h5>www.terapiaconpablo.com</h5>
   </div>
@@ -21,7 +21,9 @@
       <h2>Estamos en contacto</h2>
         <div id="faro-animation">
           <div id="faro"><img src="_media/img-faro.png"></div>
-          <div id="boat"><img src="_media/img-barco.png"></div>
+          <div id="luz-1" class="luz"><img src="_media/img-luz-1.png"></div>
+          <div id="luz-2" class="luz"><img src="_media/img-luz-2.png"></div>
+          <div id="barco"><img src="_media/img-barco.png"></div>
         </div>
       </div>
   </section>
@@ -75,6 +77,7 @@
   </footer>
   <!-- Footer ends -->
   <script>
+    var pageType = "<?php echo $pageType ?>";
     var page = "<?php echo $page ?>";
   </script>
 

@@ -19,6 +19,8 @@
 
     Inner pages
     11. Terapias individuales
+    12. Terapias grupales
+    13. Cursos
 
     *. Media queries
 */
@@ -165,8 +167,11 @@ a {
   .loader{
     width: 80px;
     height: 80px;
-    background-color: #cbc7c3;
   }
+    .loader img {
+      width: 100%;
+      height: 100%;
+    }
 
 .key-image {
   width: 50%;
@@ -339,7 +344,7 @@ nav {
     }
     .nav-button:hover { border-bottom: 1px solid #d4d4d4; }
     .button-selected { border: 1px solid #d4d4d4; }
-    .nav-indicator {
+    .page-indicator {
       position: absolute;
       bottom: -10px;
       left: 46%;
@@ -424,11 +429,6 @@ footer {
   height: 70vh;
   padding-top: 60px;
   background-color: #314658;
-  background: url(../_media/bg-footer.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   z-index: 99;
 }
 
@@ -439,29 +439,43 @@ footer {
 }
   #faro-animation {
     position: absolute;
-    right: 60px; 
-    width: 135px;
+    right: 100px; 
+    width: 120px;
   }
     #faro {
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 75px;
-      height: 100px;
+      width: 40px;
+      height: 80px;
     }
       #faro img {
         width: 100%;
         height: auto; 
       }
 
-    #boat {
+    .luz {
       position: absolute;
-      bottom: 0;
-      left: 0px;
-      width: 55px;
-      height: 33px;
+      bottom: 57px;
+      width: 40px;
+      height: 20px;
     }
-      #boat img {
+      .luz img {
+        width: 100%;
+        height: auto; 
+      }
+    #luz-1 { right: 30px; }
+    #luz-2 { right: -30px; }
+    
+
+    #barco {
+      position: absolute;
+      bottom: -2px;
+      left: 0px;
+      width: 36px;
+      height: 40px;
+    }
+      #barco img {
         width: 100%;
         height: auto; 
       }
@@ -673,6 +687,20 @@ footer {
    ========================================================================== */
 #terapias-individuales-key-image {
      background: url(../_media/keyimg-terapias-individuales.jpg) no-repeat center center; 
+}
+
+/* ==========================================================================
+   12. Terapias grupales
+   ========================================================================== */
+   #terapias-grupales-key-image {
+    background: url(../_media/keyimg-terapias-grupales.jpg) no-repeat center center; 
+}
+
+/* ==========================================================================
+   13. Cursos
+   ========================================================================== */
+   #cursos-key-image {
+    background: url(../_media/keyimg-cursos.jpg) no-repeat center center; 
 }
   
 

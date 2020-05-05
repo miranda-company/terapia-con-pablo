@@ -1,7 +1,8 @@
 <?php
+    $pageType = "main";
+    $page = "homepage";
     require_once("../private/initialize.php"); 
     include(SHARED_PATH . "/header.php");
-    $page = "main";
 ?>
 
 <!-- Section: Inicio header -->
@@ -53,7 +54,7 @@
       </div>
 
       <div id="terapia-img-2" class="terapia-img">
-        <img src="_media/img-terapias-2.jpg" alt="Terapias relacionales Pablo Rodríguez González" title="Terapias relacionales Pablo Rodríguez González">
+        <img src="_media/img-terapias-2.jpg" alt="Terapias grupales Pablo Rodríguez González" title="Terapias grupales Pablo Rodríguez González">
       </div>
     </div>
     
@@ -70,14 +71,14 @@
         </a>
       </p>
     
-      <!-- Terapias relacionales -->
+      <!-- Terapias grupales -->
       <p id="terapia-relacional" class="desc-terapia">
         <h2>Terapia grupal</h2>
         El propósito de estas terapias es dar solución a problemas relacionales que aparecen en el seno de una familia o de una pareja. Son terapias de duración limitada, donde nos centraremos en el desarrollo de estrategias y habilidades para afrontar conflictos comunes así como individuales.
         <br>
         <br>
         <br>
-        <a class="cta" href="terapias-relacionales.php" target="_self" title="Ver las terapias individuales">
+        <a class="cta" href="terapias-grupales.php" target="_self" title="Ver las terapias grupales">
           Conócelas <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>
@@ -122,7 +123,7 @@
         <br>
         <br>
         <br>
-        <a class="cta" href="terapias-individuales.php" target="_self" title="Ver las terapias individuales">
+        <a class="cta" href="cursos.php" target="_self" title="Ver los cursos">
           Ver cursos <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>

@@ -123,20 +123,33 @@ let Form = {
    }
 }
 
+let Footer = {
+   animate: function(){
+      let barco = document.getElementById("barco");
+      let faro = document.getElementById("faro");
+      let luz1 = document.getElementById("luz-1");
+      let luz2 = document.getElementById("luz-2");
+      TweenMax.set([luz1, luz2], {opacity: 0});
+      TweenMax.fromTo(barco, 4, {rotation: -6, x:-6}, {rotation: 6, x: 2, yoyo: true, repeat: -1,  transformOrigin: "50% 100%", ease:Power1.easeInOut});
+      TweenMax.fromTo(luz1, 4.5, {scaleX: 0.6, scaleY: 2, opacity: 0}, {delay: 0, scaleX:1.5, scaleY: 0.8, opacity: 1, yoyo:true, repeat: -1, transformOrigin:"100% 50%", ease:Power0.easeNone});
+      TweenMax.fromTo(luz2, 5, {scaleX: 0, scaleY: 1.8, opacity: 0}, {delay: 7.5, scaleX:1.5, scaleY: 0.8, opacity: 1, yoyo:true, repeat: -1, transformOrigin:"0% 50%", ease:Power0.easeNone});
+   }
+}
+
 
 
 // -----------------------------
 window.onload = function () {
-   
-
-   if(page == "main"){
+   if(pageType == "main"){
       Navigation.scrollMagic();
       QuotePicker.pick();
    }
 
-   if(page == "inner"){
+   if(pageType == "inner"){
       Form.closeSuccessMessage();
    }
+
+   Footer.animate();
    
    let pageOverlay = document.getElementById("page-overlay");
    TweenMax.to(pageOverlay, 0.4, {delay: 0.2, autoAlpha: 0});
