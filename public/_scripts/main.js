@@ -1,13 +1,44 @@
-"use strict";
+'use strict';
 
 let Navigation = {
-
    scrollMagic: function(event){
       var controller = new ScrollMagic.Controller();
-   
+      var quickNavUp = document.getElementById("quick-nav-up");
+      var quickNavDown = document.getElementById("quick-nav-down");
+
+      function quickNav1(event){
+         console.log("event target", event.target.triggerElement);
+         quickNavUp.setAttribute('href', "#inicio");
+         quickNavDown.setAttribute('href', "#sobre-pablo");
+      }
+
+      function quickNav2(){
+         quickNavUp.setAttribute('href', "#inicio");
+         quickNavDown.setAttribute('href', "#terapias");
+      }
+
+      function quickNav3(){
+         quickNavUp.setAttribute('href', "#sobre-pablo");
+         quickNavDown.setAttribute('href', "#formacion");
+      }
+
+      function quickNav4(){
+         quickNavUp.setAttribute('href', "#terapias");
+         quickNavDown.setAttribute('href', "#contacto");
+      }
+
+      function quickNav5(){
+         quickNavUp.setAttribute('href', "#formacion");
+         quickNavDown.setAttribute('href', "#contacto");
+      }
+
       // Scene 1 - inicio
+      var inicio = document.getElementById("inicio");
+      var inicioAttr = inicio.getAttribute("id");
+      console.log("INICIO ATTR", inicioAttr);
+
       var scene1 = new ScrollMagic.Scene({
-         triggerElement: "#inicio",
+         triggerElement: inicioAttr,
          duration: "100%", 
          triggerHook: 0
       })
@@ -15,10 +46,11 @@ let Navigation = {
       .addIndicators({
          name: "inicio"
       })
+      .on("enter", quickNav1)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 1 arrow inactive - inicio
-      var scene1Inactive = new ScrollMagic.Scene({
+      new ScrollMagic.Scene({
          triggerElement: "#inicio",
          duration: "100%", 
          triggerHook: 0
@@ -39,6 +71,7 @@ let Navigation = {
       .addIndicators({
          name: "sobre pablo"
       })
+      .on("enter", quickNav2)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 3 - terapias
@@ -51,6 +84,7 @@ let Navigation = {
       .addIndicators({
          name: "terapias"
       })
+      .on("enter", quickNav3)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 4 - formacion
@@ -63,6 +97,7 @@ let Navigation = {
       .addIndicators({
          name: "formacion"
       })
+      .on("enter", quickNav4)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 5 - contacto
@@ -74,6 +109,7 @@ let Navigation = {
       .addIndicators({
          name: "contacto"
       })
+      .on("enter", quickNav5)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 5 arrow inactive - contacto
@@ -110,7 +146,6 @@ let QuotePicker = {
 
 let Form = {
    successMessage: null,
-
    closeSuccessMessage: function (){
       this.successMessage = document.getElementById("success-message");
       if(this.successMessage){
