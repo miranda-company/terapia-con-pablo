@@ -39,26 +39,20 @@ let Navigation = {
 
       var scene1 = new ScrollMagic.Scene({
          triggerElement: inicioAttr,
-         duration: "100%", 
+         duration: "90%", 
          triggerHook: 0
       })
       .setClassToggle("#nav-btn-inicio", "button-selected")
-      .addIndicators({
-         name: "inicio"
-      })
       .on("enter", quickNav1)
       .addTo(controller); // assign the scene to the controller
 
       // Scene 1 arrow inactive - inicio
       new ScrollMagic.Scene({
          triggerElement: "#inicio",
-         duration: "100%", 
+         duration: "90%", 
          triggerHook: 0
       })
       .setClassToggle("#quick-nav-up", "quick-nav-inactive")
-      .addIndicators({
-         name: "inicio"
-      })
       .addTo(controller); // assign the scene to the controller
 
       // Scene 2 - sobre
@@ -68,9 +62,6 @@ let Navigation = {
          triggerHook: 0
       })
       .setClassToggle("#nav-btn-sobre", "button-selected")
-      .addIndicators({
-         name: "sobre pablo"
-      })
       .on("enter", quickNav2)
       .addTo(controller); // assign the scene to the controller
 
@@ -78,12 +69,9 @@ let Navigation = {
       var scene3 = new ScrollMagic.Scene({
          triggerElement: "#terapias",
          duration: "100%",
-         triggerHook: 0
+         triggerHook: "10%"
       })
       .setClassToggle("#nav-btn-terapias", "button-selected")
-      .addIndicators({
-         name: "terapias"
-      })
       .on("enter", quickNav3)
       .addTo(controller); // assign the scene to the controller
 
@@ -94,9 +82,6 @@ let Navigation = {
          triggerHook: "10%"
       })
       .setClassToggle("#nav-btn-formacion", "button-selected")
-      .addIndicators({
-         name: "formacion"
-      })
       .on("enter", quickNav4)
       .addTo(controller); // assign the scene to the controller
 
@@ -106,9 +91,6 @@ let Navigation = {
          duration: "30%"
       })
       .setClassToggle("#nav-btn-contacto", "button-selected")
-      .addIndicators({
-         name: "contacto"
-      })
       .on("enter", quickNav5)
       .addTo(controller); // assign the scene to the controller
 
@@ -118,9 +100,6 @@ let Navigation = {
          duration: "30%"
       })
       .setClassToggle("#quick-nav-down", "quick-nav-inactive")
-      .addIndicators({
-         name: "contacto"
-      })
       .addTo(controller); // assign the scene to the controller
    }
 

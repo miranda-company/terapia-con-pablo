@@ -1,6 +1,6 @@
 <?php
     $pageType = "inner";
-    $page = "terapias-grupales";
+    $page = "terapias-familiares";
     require_once("../private/initialize.php"); 
     include(SHARED_PATH . "/header.php");
 ?>
@@ -12,9 +12,9 @@
         $name = $_POST["name"];
         $email = $_POST["email"];
 
-        $to = "rodolfo.mcompany@gmail.com";
+        $to = "info@terapiaconpablo.com";
         $subject = "Nuevo contacto Terapia con Pablo";
-        $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer una terapia grupal del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
+        $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer una Terapia familiar del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
         
         echo "<div id='success-message' class='form-sent-wrapper'><div class='form-success-message'><h2>Mensaje enviado</h2><p> " . $name . " pronto me pondré en contacto contigo.</p></div></div>";
 
@@ -23,7 +23,7 @@
     } 
 ?>
 
-<!-- Section: Terapias grupales -->
+<!-- Section: Terapias familiares -->
 <section id="terapias-grupal-home" class="normal-section">
 
     <div class="section-wrapp main-content">
@@ -34,16 +34,16 @@
                 <ul class="bread-crumbs-menu">
                     <li class="nav-button"><a href="index.php#terapias">Terapias<span class="page-indicator"></span></a></li>
                     <li> > </li>
-                    <li class="nav-button button-selected"><a>Grupales</a></li>
+                    <li class="nav-button button-selected"><a>Familiares</a></li>
                 </ul>
             </div>
 
             <p>
-                <h2>Terapias grupales</h2>
+                <h2>Terapias familiares</h2>
                 A lo largo del ciclo vital de una familia, o de una pareja surgen problemas de convivencia, conflictos, problemas de comunicación e incluso de relación. Estas situaciones suelen dar lugar al distanciamiento y a un deterioro importante del vínculo con nuestros seres queridos.
                 <br>
                 <br> 
-                Las terapia grupal, se dirige a familias y parejas que quieren recuperar la armonía de su relación y que están dispuestas a trabajar en equipo. 
+                La terapia  familiar se dirige a familias y parejas que quieren recuperar la armonía de su relación y que están dispuestas a trabajar en equipo.
                 <br>
                 <br>
                 Aquí podréis resolver vuestros conflictos sin que escalen como en casa, mejorar la comunicación y desactivar las tensiones de la convivencia.
@@ -54,36 +54,36 @@
         <div id="terapias-grupales-key-image" class="special-key-image"></div>
     </div>
 </section>
-<!-- Section: Terapias grupales ends -->
+<!-- Section: Terapias familiares ends -->
 
-<!-- Section: Terapia grupal 1 -->
-<section id="terapia-grupal-1" class="special-section">
+<!-- Section: Terapia familiar 1 -->
+<section id="terapia-familiar-1" class="special-section">
 
     <div class="section-wrapp main-content">
 
         <div class="img-special img-special-right">
-            <img src="_media/img-terapia-grupal-1.jpg">
+            <img src="_media/img-terapia-familiar-1.jpg">
         </div>
 
         <div class="text-special text-special-left">    
             <h2>Terapia familiar</h2>
             <p>
-                El bienestar de una família se puede ver alterado por múltiples motivos que pueden ser inherentes o externos a la família. Cuando esto ocurre la resolución de conflictos resulta prácticamente imposible y la convivencia se nos hace cuesta arriba. Esta terapia ofrece un espacio seguro donde resolver conflictos de forma controlada, mejorar la comunicación y recuperar la armonía. 
+                El bienestar de una família se puede ver alterado por múltiples motivos que pueden ser inherentes o externos a la família. Cuando esto ocurre la resolución de conflictos resulta prácticamente imposible y la convivencia se nos hace cuesta arriba. La terapia familiar ofrece un espacio seguro donde resolver conflictos de forma controlada, mejorar la comunicación y recuperar la armonía.
             </p>
         </div>
     
     </div>
 
 </section>
-<!-- Section: Terapia grupal 1 ends -->
+<!-- Section: Terapia familiar 1 ends -->
 
-<!-- Section: Terapia grupal 2 -->
-<section id="terapia-grupal-2" class="special-section">
+<!-- Section: Terapia familiar 2 -->
+<section id="terapia-familiar-2" class="special-section">
 
     <div class="section-wrapp main-content">
 
         <div class="img-special img-special-left">
-            <img src="_media/img-terapia-grupal-2.jpg">
+            <img src="_media/img-terapia-familiar-2.jpg">
         </div>
 
         <div class="text-special text-special-right">    
@@ -96,7 +96,7 @@
     </div>
 
 </section>
-<!-- Section: Terapia grupal 2 ends -->
+<!-- Section: Terapia familiar 2 ends -->
 
 <!-- Section: Formulario de contacto -->
 <section id="contact-form" class="normal-section">

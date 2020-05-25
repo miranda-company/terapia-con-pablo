@@ -110,7 +110,7 @@ a {
   .hero-section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
   }
   
@@ -127,13 +127,20 @@ a {
     height: auto;
     padding: 100px 0 100px;
   }
+
+  .news-section {
+    position: relative;
+    padding: 1em;
+    background-color: #ffe4c8;
+    z-index: 100;
+    margin-bottom: 100px;
+  }
   
   .section-wrapp {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 100px;
-    /* border: 1px solid red; */
   }
   
   .quote-section {
@@ -499,7 +506,7 @@ footer {
 .external-icon {
   width: 35px;
   height: 35px;
-  margin: 0 15px;
+  margin: 15px 15px 0 15px;
 }
   .external-icon img {
     width: 100%;
@@ -551,11 +558,13 @@ footer {
 }
 
 #welcome-message {
-  margin: 65vh auto;
+  margin: 55vh auto;
   color: #eeeeee;
 }
   #welcome-message p {
-    width: 60%;
+    width: 57%;
+    font-size: 1.2em;
+    line-height: 1.4em;
   }
  
 /* ==========================================================================
@@ -758,7 +767,12 @@ footer {
   }
 
   /* 4. Footer - media queries */
-  footer { height: 80vh; }
+  footer { height: 100vh; }
+
+  #faro-animation {
+    right: 30px;
+    width: 116px;
+  }
 
 
   /* 11. Terapias individuales - media queries */
@@ -776,6 +790,11 @@ footer {
   .img-special-right {
     right: 30px;
   }
+  
+  .special-section { padding: 100px 0 80px; }
+  form { padding: 0; }
+  .input-form { width: 100%; }
+  
 }
 
 @media screen and (max-width: 450px){
@@ -811,7 +830,7 @@ footer {
   }
 
   /* 6. Inicio - media queries */
-  #welcome-message { margin: 55vh auto; }
+  #welcome-message { margin: 40vh auto; }
   .main-content { flex-direction: column; }
   .key-image { 
     margin-top: 0;

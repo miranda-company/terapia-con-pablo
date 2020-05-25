@@ -11,7 +11,7 @@
 
   <!-- Quick contact -->
   <div id="quick-contact">
-    <p>Pablo Rodríguez González · +34 777 639 555 · <a href="#contacto"><strong>Contacto</strong></a></p>
+    <p>Pablo Rodríguez González · +34 722 639 555 · <a href="#contacto"><strong>Contacto</strong></a></p>
   </div>
   <!-- Quick contact ends -->
   
@@ -39,7 +39,7 @@
       <div class="footer-col">
         info@terapiaconpablo.com
         <br>
-        teléfono: +34 777 639 555
+        teléfono: +34 722 639 555
       </div>
 
       <div class="footer-col">
@@ -51,16 +51,19 @@
 
     <div id="footer-external-info" class="section-wrapp footer-info">
       <div class="external-icon">
-        <a href="https://wa.me/34644780605?text=Hola%20Pablo,%20me%20gustaría%20hacer%20terapia%20contigo.%20Mi%20nombre%20es%20" target="_blank" title="Agenda una cita conmigo a través de WhatsApp"><img src="<?php echo url_for('_media/icon-whatsapp.png')?>" alt=""></a>
+        <a href="https://wa.me/34722639555?text=Hola%20Pablo,%20me%20gustaría%20hacer%20terapia%20contigo.%20Mi%20nombre%20es%20" target="_blank" title="Agenda una cita conmigo a través de WhatsApp"><img src="<?php echo url_for('_media/icon-whatsapp.png')?>" alt=""></a>
       </div>
       <div class="external-icon">
-        <a href="https://t.me/rodmico" target="_blank" title="Agenda una cita conmigo a través de Telegram"><img src="<?php echo url_for('_media/icon-telegram.png')?>" alt=""></a>
+        <a href="https://t.me/terapiaconpablo" target="_blank" title="Agenda una cita conmigo a través de Telegram"><img src="<?php echo url_for('_media/icon-telegram.png')?>" alt=""></a>
       </div>
       <div class="external-icon">
         <a href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi perfil en LinkedIn"><img src="<?php echo url_for('_media/icon-linkedin.png')?>" alt=""></a>
       </div>
       <div class="external-icon">
         <a href="https://www.mundopsicologos.com/centros/pablo-rodriguez" target="_blank" title="Agenda una cita conmigo en Mundo Psicólogos"><img src="<?php echo url_for('_media/icon-mundo-psicologos.png')?>" alt=""></a>
+      </div>
+      <div class="external-icon">
+        <a href="https://www.doctoralia.es/pablo-rodriguez-gonzalez" target="_blank" title="Agenda una cita conmigo en Doctoralia"><img src="<?php echo url_for('_media/icon-doctoralia.png')?>" alt=""></a>
       </div>
     </div>
 

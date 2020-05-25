@@ -12,7 +12,7 @@
         $name = $_POST["name"];
         $email = $_POST["email"];
 
-        $to = "rodolfo.mcompany@gmail.com";
+        $to = "info@terapiaconpablo.com";
         $subject = "Nuevo contacto Terapia con Pablo";
         $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer una terapia individual del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
         
@@ -43,7 +43,7 @@
                 En muchas ocasiones afrontamos situaciones difíciles que nos generan malestar. Ansiedad, depresión, fobias, procesos de duelo, crisis existenciales o adaptación a una nueva situación son algunos de los malestares más comunes. 
                 <br>
                 <br> 
-                El propósito de estas terapias es mejorar la calidad de vida de las personas a partir del desarrollo del autoconocimiento. A través de un acompañamiento personalizado, conocerás modos diferentes de pensar, sentir y actuar para lograr un buen equilibrio emocional. 
+                El propósito de la terapia individual es mejorar la calidad de vida de las personas a partir del desarrollo del autoconocimiento. A través de un acompañamiento personalizado, conocerás modos diferentes de pensar, sentir y actuar para lograr un buen equilibrio emocional. 
                 <br>
                 <br>
                 Sea cual sea tu problema, te ofrezco un espacio de respeto, apoyo y confianza en el que podrás expresarte libremente.
@@ -55,6 +55,28 @@
     </div>
 </section>
 <!-- Section: Terapias individuales ends -->
+
+<!-- Section: Terapia individual 0 -->
+<section id="terapia-individual-0" class="special-section">
+
+    <div class="section-wrapp main-content">
+
+        <div class="img-special img-special-left">
+            <img src="_media/img-terapia-individual-0.jpg">
+        </div>
+
+        <div class="text-special text-special-right">    
+            <h2>Covid-19</h2>
+            <p>
+                Experimentar un duelo a distancia, el aislamiento o la angustia a causa de un futuro incierto son algunas de las secuelas que el virus del Covid-19 va dejando a su paso.  
+                Es por ello que en este contexto, estoy compartido algunos <a href="https://www.youtube.com/channel/UChnxLLvzviaR5NeKOevB8iQ" target="_blank">recursos en línea</a> y que he abierto este nuevo espacio terapéutico.
+            </p>
+        </div>
+    
+    </div>
+
+</section>
+<!-- Section: Terapia individual 2 ends -->
 
 <!-- Section: Terapia individual 1 -->
 <section id="terapia-individual-1" class="special-section">
@@ -89,7 +111,7 @@
         <div class="text-special text-special-right">    
             <h2>Trastornos del ánimo</h2>
             <p>
-                La depresión, la ansiedad, la tristeza o el desánimo son emociones que cuando se apoderan de nosotros nos bloquean, convirtiendo nuestra vida en una tarea árdua. Los trastornos del ánimo son alteraciones de nuestro estado anímico que afectan nuestra vida diaria. Para estos casos, propongo una terapia personalizada enfocada en mejorar tu salud emocional para que puedas recuperar la seguridad y la autoconfianza.
+                La depresión, la ansiedad, la tristeza o la ira son emociones que cuando se apoderan de nosotros nos bloquean, convirtiendo nuestra vida en una tarea árdua. Los trastornos del ánimo son alteraciones de nuestro estado anímico que afectan nuestra vida diaria. Para estos casos, propongo una terapia personalizada enfocada en mejorar tu salud emocional para que puedas recuperar la seguridad y la autoconfianza.
             </p>
         </div>
     
@@ -110,7 +132,7 @@
         <div class="text-special text-special-left">    
             <h2>Procesos de duelo</h2>
             <p>
-            Una pérdida sea del tipo que sea, es una de las experiencias más duras que afronta el ser humano. En ocasiones el duelo asociado a la pérdida se prolonga más de lo habitual en el tiempo impidiendonos seguir con nuestra vida. El acompañamiento psicológico en procesos de duelo es mi especialidad. Sea cual sea tu pérdida, en esta terapia voy a estar a tu lado para que logres sobreponerte al sufrimiento. Aprender a sentir la pérdida con menos dolor te ayudará a aceptar la situación y a seguir con tu día a día.
+                Una pérdida (de un ser querido, un trabajo o una ruptura…), es una de las experiencias más duras que afronta el ser humano. En ocasiones el duelo se prolonga más de lo habitual en el tiempo impidiendonos seguir con nuestra vida. El acompañamiento psicológico en procesos de duelo es mi especialidad. Sea cual sea tu pérdida, en esta terapia voy a estar a tu lado para que logres sobreponerte al sufrimiento. Aprender a sentir la pérdida con menos dolor te ayudará a aceptar la situación y a seguir con tu día a día. 
             </p>
         </div>
     
@@ -131,7 +153,7 @@
         <div class="text-special text-special-right">    
             <h2>Psicooncología</h2>
             <p>
-            Esta disciplina se ocupa de respaldar el bienestar de las personas enfermas de cáncer y de sus familias para maximizar su calidad de vida durante y después el tratamiento. Esta terapia la doy en la sede de la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer">Asociación Española Contra el Cáncer</a> en Ibiza. La intención es facilitar una atención psicológica especializada junto con los recursos propios de la AECC para cada caso particular.
+                Esta disciplina se ocupa de promover el bienestar de las personas enfermas de cáncer y de sus familias para maximizar su calidad de vida durante y después el tratamiento. Este acompañamiento lo doy en la sede de la <a href="https://www.aecc.es/es" target="_blank">Asociación Española Contra el Cáncer</a> en Ibiza. La intención es facilitar una atención psicológica especializada junto con los recursos propios de la AECC para cada caso particular.
             </p>
         </div>
     
@@ -152,7 +174,7 @@
         <div class="text-special text-special-left">    
             <h2>Dificultades sexuales</h2>
             <p>
-            Los trastornos o las limitaciones sexuales se pueden manifestar en forma de: disfunción eréctil (impotencia), vaginismo, dispareunia, anorgasmia (dificultad o imposibilidad de llegar al orgasmo), falta de deseo sexual, hipersersexualidad, adicción al sexo o parafilia (hábitos inusuales). Esta terapia se basa en la educación sexual y la introspección. Es indicada para ti si te reconoces en alguno des estos malestares o si tienes conflictos de orientación o identidad sexual.
+                Los trastornos o las dificultades sexuales se pueden manifestar en forma de: disfunción eréctil (impotencia), vaginismo, dispareunia, anorgasmia (dificultad o imposibilidad de llegar al orgasmo), falta de deseo sexual, hipersersexualidad, adicción al sexo o parafilia (hábitos inusuales). Esta terapia se basa en la educación sexual y la introspección. Es indicada para ti si te reconoces en alguno des estos malestares o si tienes conflictos de orientación o identidad sexual.
             </p>
         </div>
     
@@ -171,9 +193,9 @@
         </div>
 
         <div class="text-special text-special-right">    
-            <h2>Terapia adolescentes</h2>
+            <h2>Terapia con adolescentes</h2>
             <p>
-            La adolescencia es una etapa fundamental para el desarrollo del ser humano. También puede ser una fase especialmente difícil en la surgen numerosos conflictos familiares, trastornos del estado de ánimo o problemas de relación. El propósito de esta terapia es ayudar al adolescente a consolidar su identidad, relacionarse de forma sana consigo mismo y gestionar sus emociones para evitar conflictos en casa, el colegio o con los amigos. Dependiendo de cada caso, las sesiones pueden implicar la presencia de otras personas y adaptarse a necesidades específicas.
+            La adolescencia es una etapa fundamental para el desarrollo del ser humano. También puede ser una fase especialmente difícil en la que surgen numerosos conflictos familiares, trastornos del estado de ánimo o problemas de relación. El propósito de esta terapia es ayudar al adolescente a consolidar su identidad, relacionarse de forma sana consigo mismo y gestionar sus emociones para evitar conflictos en casa, el colegio o con los amigos. Dependiendo de cada caso, las sesiones pueden implicar la presencia de otros miembros de la familia y adaptarse a necesidades específicas (enfermedad o proceso de duelo).
             </p>
         </div>
     
@@ -191,6 +213,7 @@
 
              <form action="<?php echo url_for("terapias-individuales.php") ?>" method="post">
                 <label for="option-selected"><strong>¿Qué tipo de terapia te interesa?</strong></label><br>
+                <input type="radio" name="option-selected" id="option-selected" value="Covid19" id="covid-19"> Covid-19 <br>
                 <input type="radio" name="option-selected" id="option-selected" value="Terapia online" id="terapia-online"> Terapia online <br>
                 <input type="radio" name="option-selected" value="Trastornos del ánimo" id="trastornos-del-animo"> Trastornos del ánimo<br>
                 <input type="radio" name="option-selected" value="Procesos de duelo" id="procesos-de-duelo"> Procesos de duelo <br>

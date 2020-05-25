@@ -9,7 +9,9 @@
 <section id="inicio" class="hero-section">
   <div id="welcome-message" class="section-wrapp">
     <h1>Terapia con Pablo</h1>
-    <p>Terapia con Pablo es mi espacio terapéutico, donde acompaño a personas como tu en su proceso de cambio. ¿Empezamos? </p>
+    <p>
+    Doy asistencia psicologica personalizada a personas y familias así como formación a profesionales y empresas.
+    </p>
   </div>
 </section>
 <!-- Section: Inicio ends -->
@@ -26,21 +28,31 @@
     <div class="text-right">
       <p>
         <h2>Pablo Rodriguez González</h2>
-        Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias.
+        Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias. 
         <br>
         <br> 
         Mi enfoque se basa en algunos aspectos de la terapia cognitivo-conductual y sobre todo en las terapias de tercera generación y el <em>mindfulness</em>. Estas últimas se centran en las necesidades de la persona yendo más allá de los síntomas de su malestar. 
         <br>
         <br>
-        Entiendo la psicoterapia como un trabajo en equipo. Juntos trabajaremos en el desarrollo de tu bienestar emocional a partir del autoconocimiento y la introspección. Mi papel consiste en guiarte a lo largo de este proceso para que logres sanar heridas, cerrar asuntos inconclusos y establecer una relación más sana contigo y con los demás. 
+        Entiendo la psicoterapia como un trabajo en equipo. Juntos trabajaremos en el desarrollo de tu bienestar emocional a partir del autoconocimiento y la introspección. Mi papel consiste en guiarte a lo largo de este proceso para que logres sanar heridas, cerrar asuntos inconclusos y establecer una relación más sana contigo y con los demás.
         <br>
         <br>
-        Mi consulta está en el centro de Ibiza, en el Centro Avanza, aunque también me puedes encontrar en la <a href="https://www.aecc.es/es" target="_blank" title="Asociación Española Contra el Cáncer">Asociación Española Contra el Cáncer</a> o a través de mis canales digitales dónde ofrezco terapia en línea.
+        Mi consulta está en el centro de Ibiza, en el <a href="https://www.aecc.es" target="_blank" title="Centro Avanza">Centro Avanza</a>, aunque también me puedes encontrar en la sede de la Asociación contra el Cáncer en Ibiza o a través de mis canales digitales dónde ofrezco terapia en línea.
       </p>
     </div>
   </div>
 </section>
 <!-- Section: Sobre Pablo ends -->
+
+<!-- Section: Noticias -->
+<section id="noticias" class="news-section">
+  <div class="section-wrapp main-content">
+    <p id="noticia">A raíz de la crisis sanitaria  he abierto una línea de atención especializada en Covid-19. <a href="terapias-individuales.php">Más información</a></p>
+  </div>
+</section>
+<!-- Section: Noticias ends -->
+
+
 
 <!-- Section: Terapias -->
 <section id="terapias" class="normal-section">
@@ -62,7 +74,7 @@
     <div id="texto-terapia" class="text-left">
       <p id="terapia-individual" class="desc-terapia">
         <h2>Terapia individual</h2>
-        Este tipo de terapias se centran en aliviar el sufrimiento emocional y su impacto en nuestra conducta a partir del autoconocimiento. Son terapias personalizadas con las que descubrirás las herramientas para resolver tus problemas y alcanzar un mayor grado de bienestar y funcionalidad.
+        La terapia individual se centra en aliviar el sufrimiento emocional y su impacto en nuestra conducta a partir del autoconocimiento. Se trata de una terapia personalizada con la que descubrirás las herramientas para resolver tus problemas y alcanzar un mayor grado de bienestar y funcionalidad.
         <br>
         <br>
         <br>
@@ -71,14 +83,14 @@
         </a>
       </p>
     
-      <!-- Terapias grupales -->
+      <!-- Terapias familiares -->
       <p id="terapia-relacional" class="desc-terapia">
-        <h2>Terapia grupal</h2>
-        El propósito de estas terapias es dar solución a problemas relacionales que aparecen en el seno de una familia o de una pareja. Son terapias de duración limitada, donde nos centraremos en el desarrollo de estrategias y habilidades para afrontar conflictos comunes así como individuales.
+        <h2>Terapias familiares</h2>
+        El propósito de esta terapia es dar solución a problemas relacionales que aparecen en el seno de una familia o de una pareja. Son terapias de duración limitada, donde nos centraremos en el desarrollo de estrategias y habilidades para afrontar conflictos comunes así como individuales.
         <br>
         <br>
         <br>
-        <a class="cta" href="terapias-grupales.php" target="_self" title="Ver las terapias grupales">
+        <a class="cta" href="terapias-familiares.php" target="_self" title="Ver las terapias familiares">
           Conócelas <span class="cta-arrow"><img class="arrow-right" src="_media/icon-arrows.png"></span>
         </a>
       </p>
@@ -119,7 +131,7 @@
     <div class="text-left">  
       <p class="desc-cursos">
         <h2>Cursos</h2>
-        Paralelamente a mi labor como psicoterapeuta me dedico a la educación. Mis formaciones se dirigen principalmente a profesionales del sector clínico u otros sectores profesionales aunque son adaptables a todo tipo de públicos.
+        Paralelamente a mi labor como psicoterapeuta me dedico a la docencia. Mis formaciones se dirigen principalmente a profesionales del sector clínico u otros sectores profesionales aunque son adaptables a todo tipo de públicos.
         <br>
         <br>
         <br>
@@ -133,7 +145,7 @@
     <div class="text-right">  
       <p class="desc-cursos">
         <h2>Conferencias</h2>
-        Desde 2015 coordino el <a href="http://www.copib.es/es/grupos-de-trabajo" target="_blank" title="Conoce COPIB">Grupo de Trabajo y Psicooncología del COPIB</a> y colaboro con la <a href="https://www.aecc.es" target="_blank" title="Conoce AECC">AECC</a> de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
+        Desde 2015 coordino el Grupo de Trabajo y Psicooncología del <a href="http://www.copib.es" target="_blank">COPIB</a> y colaboro con la <a href="https://www.aecc.es" target="_blank">AECC</a> de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
         <br>
         <br>
         Te invito a conocer <a href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi perfil en LinkedIn">mi perfil académico</a> y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.

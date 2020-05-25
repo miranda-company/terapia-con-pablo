@@ -12,7 +12,7 @@
         $name = $_POST["name"];
         $email = $_POST["email"];
 
-        $to = "rodolfo.mcompany@gmail.com";
+        $to = "info@terapiaconpablo.com";
         $subject = "Nuevo contacto Terapia con Pablo";
         $emailBody = "Hola Pablo, te han contactado a través de tu página. \r\nSu nombre es " . $name . " y quiere hacer un Curso del tipo ' " . $optionSelected . " '. \r\nTiene el siguiente comentario: ' " . $message . " '. \r\nSu correo es: " . $email;
         
@@ -86,7 +86,7 @@
         <div class="text-special text-special-right">    
             <h2>Comunicación en la relación de ayuda</h2>
             <p>
-                Este curso se dirige a profesionales implicados en la relación de ayuda: personal del ámbito social, sanitario o de la psicología. Debido a nuestra labor profesional nos relacionamos constantemente con personas que se encuentran en situación de vulnerabilidad. El objetivo de este curso es aprender a promover cambios en las personas con las que trabajamos. A partir de un enfoque teórico-práctico, veremos algunas estrategias de vínculo y de comunicación como la entrevista motivacional. 
+                Este curso se dirige a profesionales implicados en la relación de ayuda: personal del ámbito social, sanitario o de la psicología. Debido a nuestra labor profesional nos relacionamos constantemente con personas que se encuentran en situación de vulnerabilidad. El objetivo de este curso es aprender a promover cambios en las personas con las que trabajamos. A partir de un enfoque teórico-práctico, veremos algunas estrategias de vínculo y de comunicación como la entrevista motivacional.
             </p>
         </div>
     
@@ -107,7 +107,7 @@
         <div class="text-special text-special-left">    
             <h2>Cohesión y dinámicas de equipo</h2>
             <p>
-                Un equipo es un grupo de personas que trabajan en conjunto para lograr objetivos comunes. La cohesión, la asertividad y la motivación son piezas clave para el buen funcionamiento de un equipo. Este es un curso práctico tanto para líderes como equipos. Por un lado veremos las pautas para un liderazgo sano, basado en la asertividad y la motivación; y por otro, llevaremos a cabo diferentes dinámicas de equipo para trabajar la cohesión, la asertividad y la resolución de conflictos a nivel de equipo. 
+                Un equipo es un grupo de personas que trabajan en conjunto para lograr objetivos comunes. La cohesión, la asertividad y la motivación son piezas clave para el buen funcionamiento de un equipo. Este es un curso práctico tanto para líderes como equipos. Por un lado veremos las pautas para un liderazgo sano, basado en la asertividad y la motivación; y por otro, llevaremos a cabo diferentes dinámicas de equipo para trabajar la cohesión, la asertividad y la resolución de conflictos a nivel de equipo.
             </p>
         </div>
     
@@ -128,7 +128,7 @@
         <div class="text-special text-special-right">    
             <h2>Psicoterapia existencial</h2>
             <p>
-                La psicoterapia existencial es un enfoque filosófico que considera que los problemas y las dificultades de las personas son síntomas del desempeño de la vida en vez de indicadores de salud. Por lo tanto, su finalidad es aumentar la comprensión de la propia existencia a la persona que la vive. En este curso nos familiarizaremos con las técnicas y estrategias de la psicoterapia existencial de Irvin Yalom y la logoterapia de Viktor Frankl. Pondremos en práctica estas estrategias mediante juegos de rol y analizaremos casos clínicos abordados desde este enfoque. Este curso es especialmente beneficioso para profesionales de la salud mental que desarrollan su labor como psicoterapeutas. 
+                La psicoterapia existencial es un enfoque filosófico que considera que los problemas y las dificultades de las personas son síntomas del desempeño de la vida en vez de indicadores de salud. Por lo tanto, su finalidad es aumentar la comprensión de la propia existencia a la persona que la vive. En este curso nos familiarizaremos con las técnicas y estrategias de la psicoterapia existencial de Irvin Yalom y la logoterapia de Viktor Frankl. Pondremos en práctica estas estrategias mediante juegos de rol y analizaremos casos clínicos abordados desde este enfoque. Este curso es especialmente beneficioso para profesionales de la salud mental que desarrollan su labor como psicoterapeutas.
             </p>
         </div>
     
@@ -170,7 +170,7 @@
         <div class="text-special text-special-right">    
             <h2>Psicología de emergencias y catástrofes</h2>
             <p>
-                Esta rama de la psicología se viene desarrollando desde los años 90 con el fin de aliviar el sufrimiento inesperado de las víctimas y familiares de catástrofes, crisis, emergencias o desastres naturales. En este curso aprenderemos técnicas y estrategias dirigidas a la intervención en situaciones de emergencias. Va dirigido a profesionales de la psicología así como profesionales de distintos equipos de intervención en emergencias como: personal médico, Fuerzas y Cuerpos de Seguridad del Estado, cuerpo de bomberos o miembros de Protección Civil. 
+                Esta rama de la psicología se viene desarrollando desde los años 90 con el fin de aliviar el sufrimiento inesperado de las víctimas y familiares de catástrofes, crisis, emergencias o desastres naturales. En este curso aprenderemos técnicas y estrategias dirigidas a la intervención en situaciones de emergencias. Va dirigido a profesionales de la psicología así como profesionales de distintos equipos de intervención en emergencias como: personal médico, Fuerzas y Cuerpos de Seguridad del Estado, cuerpo de bomberos o miembros de Protección Civil.
             </p>
         </div>
     
