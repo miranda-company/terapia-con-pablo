@@ -1,8 +1,8 @@
 <?php
     $pageType = "inner";
     $page = "terapias-familiares";
-    require_once("private/initialize.php"); 
-    include("private/_shared/header.php");
+    require_once("_shared/initialize.php"); 
+    include("_shared/header.php");
 ?>
 
 <?php 
@@ -133,5 +133,5 @@
 </section>
 <!-- Section: Formulario de contacto ends -->
 
-<?php include("private/_shared/footer.php"); ?>
+<?php include("_shared/footer.php"); ?>
 

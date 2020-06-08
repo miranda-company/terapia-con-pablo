@@ -1,5 +1,9 @@
-<?php require_once("private/initialize.php"); ?>
-<?php include("private/_shared/header.php"); ?>
+<?php
+    $pageType = "inner";
+    $page = "politica-privacidad";
+    require_once("_shared/initialize.php"); 
+    include("_shared/header.php");
+?>
 
 <!-- Section: Politica de privacidad -->
 <section id="politica-privacidad" class="normal-section">
@@ -28,5 +32,5 @@
 <!-- Section: Politica de privacidad ends -->
 
 
-<?php include("private/_shared/footer.php"); ?>
+<?php include("_shared/footer.php"); ?>
 
