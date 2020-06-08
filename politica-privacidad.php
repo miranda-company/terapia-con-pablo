@@ -1,5 +1,5 @@
-<?php require_once("../private/initialize.php"); ?>
-<?php include(SHARED_PATH . "/header.php"); ?>
+<?php require_once("private/initialize.php"); ?>
+<?php include("private/_shared/header.php"); ?>
 
 <!-- Section: Politica de privacidad -->
 <section id="politica-privacidad" class="normal-section">
@@ -28,5 +28,5 @@
 <!-- Section: Politica de privacidad ends -->
 
 
-<?php include(SHARED_PATH . "/footer.php"); ?>
+<?php include("private/_shared/footer.php"); ?>
 

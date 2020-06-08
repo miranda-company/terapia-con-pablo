@@ -90,8 +90,3 @@
 </body>
 
 </html>
-
-<?php 
-  // Disconnect from the database
-  db_disconnect($db);
-?>

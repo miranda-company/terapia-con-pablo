@@ -1,8 +1,8 @@
 <?php
     $pageType = "inner";
     $page = "cursos";
-    require_once("../private/initialize.php"); 
-    include(SHARED_PATH . "/header.php");
+    require_once("private/initialize.php"); 
+    include("private/_shared/header.php");
 ?>
 
 <?php 
@@ -32,15 +32,15 @@
 
             <div class="bread-crumbs">
                 <ul class="bread-crumbs-menu">
-                    <li class="nav-button"><a href="index.php#terapias">Terapias<span class="page-indicator"></span></a></li>
+                    <li class="nav-button"><a href="https://www.terapiaconpablo.com/#formacion">Formación<span class="page-indicator"></span></a></li>
                     <li> > </li>
-                    <li class="nav-button button-selected"><a>Individuales</a></li>
+                    <li class="nav-button button-selected"><a>Cursos</a></li>
                 </ul>
             </div>
 
             <p>
                 <h2>Cursos</h2>
-                La psicoterapia me ha llevado a trabajar en hospitales, centros de família, y asociaciones de varios tipos. Paralelamente, mi perfil más académico me ha llevado a dar conferencias dentro y fuera del país acumulando un conocimiento que estoy más que dispuesto a compartir.
+                La psicoterapia me ha llevado a trabajar en hospitales, centros de família y asociaciones de varios tipos. Paralelamente, mi perfil más académico me ha llevado a dar conferencias dentro y fuera del país acumulando un conocimiento que estoy más que dispuesto a compartir.
                 <br>
                 <br> 
                 Estos cursos son parte de la oferta formativa que ido construyendo con los años. Son cursos que me han funcionado muy bien y que se pueden adaptar a diferentes públicos.
@@ -65,7 +65,7 @@
         <div class="text-special text-special-left">    
             <h2>Comunicación de malas noticias</h2>
             <p>
-                Uno de las cuestiones sensibles que afronta a diario el personal sanitario es la comunicación de malas noticias, especialmente en la relación de ayuda a pacientes. El propósito de este curso es aprender a comunicarnos de forma eficaz para aliviar el impacto emocional de la mala notícia sobre pacientes ayudándoles a integrar la nueva situación. A partir de una metodología teórico-práctica veremos los recursos más eficaces para la comunicación de la adversidad.
+                Uno de las cuestiones sensibles que afronta a diario el personal sanitario es la comunicación de malas noticias, especialmente en la relación de ayuda a pacientes. El propósito de este curso es aprender a comunicarnos de forma eficaz para aliviar el impacto emocional de la mala noticia sobre pacientes ayudándoles a integrar la nueva situación. A partir de una metodología teórico-práctica veremos los recursos más eficaces para comunicar la adversidad.
             </p>
         </div>
     
@@ -86,7 +86,7 @@
         <div class="text-special text-special-right">    
             <h2>Comunicación en la relación de ayuda</h2>
             <p>
-                Este curso se dirige a profesionales implicados en la relación de ayuda: personal del ámbito social, sanitario o de la psicología. Debido a nuestra labor profesional nos relacionamos constantemente con personas que se encuentran en situación de vulnerabilidad. El objetivo de este curso es aprender a promover cambios en las personas con las que trabajamos. A partir de un enfoque teórico-práctico, veremos algunas estrategias de vínculo y de comunicación como la entrevista motivacional.
+                Este curso se dirige a profesionales implicados en la relación de ayuda: personal del ámbito social, sanitario o de la psicología. Debido a nuestra labor profesional nos relacionamos constantemente con personas que se encuentran en situación de vulnerabilidad. El objetivo de este curso es aprender a promover cambios en las personas con las que trabajamos. A partir de un enfoque teórico-práctico, veremos algunas estrategias de comunicación para establecer el vínculo, como la entrevista motivacional.
             </p>
         </div>
     
@@ -107,7 +107,7 @@
         <div class="text-special text-special-left">    
             <h2>Cohesión y dinámicas de equipo</h2>
             <p>
-                Un equipo es un grupo de personas que trabajan en conjunto para lograr objetivos comunes. La cohesión, la asertividad y la motivación son piezas clave para el buen funcionamiento de un equipo. Este es un curso práctico tanto para líderes como equipos. Por un lado veremos las pautas para un liderazgo sano, basado en la asertividad y la motivación; y por otro, llevaremos a cabo diferentes dinámicas de equipo para trabajar la cohesión, la asertividad y la resolución de conflictos a nivel de equipo.
+                Un equipo es un grupo de personas que trabajan en conjunto para lograr objetivos comunes. La cohesión, la asertividad y la motivación son piezas clave para su buen funcionamiento. Este es un curso práctico tanto para líderes como para equipos. Por un lado veremos las pautas para un liderazgo sano, basado en la asertividad y la motivación; y por otro, llevaremos a cabo diferentes dinámicas de equipo para trabajar la cohesión, la asertividad y la resolución de conflictos a nivel de equipo.
             </p>
         </div>
     
@@ -170,7 +170,7 @@
         <div class="text-special text-special-right">    
             <h2>Psicología de emergencias y catástrofes</h2>
             <p>
-                Esta rama de la psicología se viene desarrollando desde los años 90 con el fin de aliviar el sufrimiento inesperado de las víctimas y familiares de catástrofes, crisis, emergencias o desastres naturales. En este curso aprenderemos técnicas y estrategias dirigidas a la intervención en situaciones de emergencias. Va dirigido a profesionales de la psicología así como profesionales de distintos equipos de intervención en emergencias como: personal médico, Fuerzas y Cuerpos de Seguridad del Estado, cuerpo de bomberos o miembros de Protección Civil.
+                Esta rama de la psicología se viene desarrollando desde los años 90 con el fin de aliviar el sufrimiento inesperado de las víctimas y sus familiares en catástrofes, crisis, emergencias o desastres naturales. En este curso aprenderemos técnicas y estrategias dirigidas a la intervención en situaciones de emergencias. Va dirigido a profesionales de la psicología así como profesionales de distintos equipos de intervención en emergencias como: personal médico, Fuerzas y Cuerpos de Seguridad del Estado, cuerpo de bomberos o miembros de Protección Civil.
             </p>
         </div>
     
@@ -218,5 +218,5 @@
 </section>
 <!-- Section: Formulario de contacto ends -->
 
-<?php include(SHARED_PATH . "/footer.php"); ?>
+<?php include("private/_shared/footer.php"); ?>
 

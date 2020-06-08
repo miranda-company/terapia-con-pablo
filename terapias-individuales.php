@@ -1,8 +1,8 @@
 <?php
     $pageType = "inner";
     $page = "terapias-individuales";
-    require_once("../private/initialize.php"); 
-    include(SHARED_PATH . "/header.php");
+    require_once("private/initialize.php"); 
+    include("private/_shared/header.php");
 ?>
 
 <?php 
@@ -32,7 +32,7 @@
 
             <div class="bread-crumbs">
                 <ul class="bread-crumbs-menu">
-                    <li class="nav-button"><a href="index.php#terapias">Terapias<span class="page-indicator"></span></a></li>
+                    <li class="nav-button"><a href="https://www.terapiaconpablo.com/#terapias">Terapias<span class="page-indicator"></span></a></li>
                     <li> > </li>
                     <li class="nav-button button-selected"><a>Individuales</a></li>
                 </ul>
@@ -69,7 +69,7 @@
             <h2>Covid-19</h2>
             <p>
                 Experimentar un duelo a distancia, el aislamiento o la angustia a causa de un futuro incierto son algunas de las secuelas que el virus del Covid-19 va dejando a su paso.  
-                Es por ello que en este contexto, estoy compartido algunos <a href="https://www.youtube.com/channel/UChnxLLvzviaR5NeKOevB8iQ" target="_blank">recursos en línea</a> y que he abierto este nuevo espacio terapéutico.
+                Es por ello que en este contexto, estoy compartiendo algunos <a href="https://www.youtube.com/channel/UCqAzWKybQ0PbcDXZYCeqhAg" target="_blank">recursos en línea</a> y que he abierto este nuevo espacio terapéutico.
             </p>
         </div>
     
@@ -109,7 +109,7 @@
         </div>
 
         <div class="text-special text-special-right">    
-            <h2>Trastornos del ánimo</h2>
+            <h2>Trastornos del estado de ánimo</h2>
             <p>
                 La depresión, la ansiedad, la tristeza o la ira son emociones que cuando se apoderan de nosotros nos bloquean, convirtiendo nuestra vida en una tarea árdua. Los trastornos del ánimo son alteraciones de nuestro estado anímico que afectan nuestra vida diaria. Para estos casos, propongo una terapia personalizada enfocada en mejorar tu salud emocional para que puedas recuperar la seguridad y la autoconfianza.
             </p>
@@ -174,7 +174,7 @@
         <div class="text-special text-special-left">    
             <h2>Dificultades sexuales</h2>
             <p>
-                Los trastornos o las dificultades sexuales se pueden manifestar en forma de: disfunción eréctil (impotencia), vaginismo, dispareunia, anorgasmia (dificultad o imposibilidad de llegar al orgasmo), falta de deseo sexual, hipersersexualidad, adicción al sexo o parafilia (hábitos inusuales). Esta terapia se basa en la educación sexual y la introspección. Es indicada para ti si te reconoces en alguno des estos malestares o si tienes conflictos de orientación o identidad sexual.
+                Los trastornos o las dificultades sexuales se pueden manifestar en forma de disfunción eréctil (impotencia), vaginismo, dispareunia, anorgasmia (dificultad o imposibilidad de llegar al orgasmo), falta de deseo sexual, hipersersexualidad, adicción al sexo o parafilia (hábitos inusuales). Esta terapia se basa en la educación sexual y la introspección. Es indicada para ti si te reconoces en alguno de estos malestares o si tienes conflictos de orientación o identidad sexual.
             </p>
         </div>
     
@@ -195,7 +195,7 @@
         <div class="text-special text-special-right">    
             <h2>Terapia con adolescentes</h2>
             <p>
-            La adolescencia es una etapa fundamental para el desarrollo del ser humano. También puede ser una fase especialmente difícil en la que surgen numerosos conflictos familiares, trastornos del estado de ánimo o problemas de relación. El propósito de esta terapia es ayudar al adolescente a consolidar su identidad, relacionarse de forma sana consigo mismo y gestionar sus emociones para evitar conflictos en casa, el colegio o con los amigos. Dependiendo de cada caso, las sesiones pueden implicar la presencia de otros miembros de la familia y adaptarse a necesidades específicas (enfermedad o proceso de duelo).
+                La adolescencia es una etapa fundamental para el desarrollo del ser humano. También puede ser una fase especialmente difícil en la que surgen numerosos conflictos familiares, trastornos del estado de ánimo o problemas de relación. El propósito de esta terapia es ayudar al adolescente a consolidar su identidad, relacionarse de forma sana consigo mismo y gestionar sus emociones para evitar conflictos en casa, en el colegio o con los amigos. Dependiendo de cada caso, las sesiones pueden implicar la presencia de otros miembros de la familia y adaptarse a necesidades específicas (enfermedad o proceso de duelo).
             </p>
         </div>
     
@@ -215,7 +215,7 @@
                 <label for="option-selected"><strong>¿Qué tipo de terapia te interesa?</strong></label><br>
                 <input type="radio" name="option-selected" id="option-selected" value="Covid19" id="covid-19"> Covid-19 <br>
                 <input type="radio" name="option-selected" id="option-selected" value="Terapia online" id="terapia-online"> Terapia online <br>
-                <input type="radio" name="option-selected" value="Trastornos del ánimo" id="trastornos-del-animo"> Trastornos del ánimo<br>
+                <input type="radio" name="option-selected" value="Trastornos del ánimo" id="trastornos-del-animo"> Trastornos del estado de ánimo<br>
                 <input type="radio" name="option-selected" value="Procesos de duelo" id="procesos-de-duelo"> Procesos de duelo <br>
                 <input type="radio" name="option-selected" value="Psicooncología" id="psicooncologia"> Psicooncología <br>
                 <input type="radio" name="option-selected" value="Dificultades sexuales" id="dificultades-sexuales"> Dificultades sexuales <br>
@@ -244,5 +244,5 @@
 </section>
 <!-- Section: Formulario de contacto ends -->
 
-<?php include(SHARED_PATH . "/footer.php"); ?>
+<?php include("private/_shared/footer.php"); ?>
 

@@ -27,25 +27,8 @@
     */  
     $public_end = strpos($_SERVER["SCRIPT_NAME"], "/public") + 7;
     $doc_root = substr($_SERVER["SCRIPT_NAME"], 0, $public_end);
-    define("WWW_ROOT", $doc_root);
-
+    define("WWW_ROOT", "");
 
     // Load our php functions library
     require_once("functions.php");
-    
-    // Load our database functions library
-    require_once("database_functions.php");
-
-    // Load our query functions library
-    require_once("query_functions.php");
-
-    // Load our validations functions library
-    require_once("validation_functions.php");
-
-    // Connect to the databse
-    // $db = db_connect();
-
-    // List of errors for all pages
-    $errors = [];
-
 ?>

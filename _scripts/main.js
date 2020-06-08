@@ -7,7 +7,6 @@ let Navigation = {
       var quickNavDown = document.getElementById("quick-nav-down");
 
       function quickNav1(event){
-         console.log("event target", event.target.triggerElement);
          quickNavUp.setAttribute('href', "#inicio");
          quickNavDown.setAttribute('href', "#sobre-pablo");
       }
@@ -35,7 +34,6 @@ let Navigation = {
       // Scene 1 - inicio
       var inicio = document.getElementById("inicio");
       var inicioAttr = inicio.getAttribute("id");
-      console.log("INICIO ATTR", inicioAttr);
 
       var scene1 = new ScrollMagic.Scene({
          triggerElement: inicioAttr,

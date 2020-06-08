@@ -1,8 +1,8 @@
 <?php
     $pageType = "inner";
     $page = "terapias-familiares";
-    require_once("../private/initialize.php"); 
-    include(SHARED_PATH . "/header.php");
+    require_once("private/initialize.php"); 
+    include("private/_shared/header.php");
 ?>
 
 <?php 
@@ -32,7 +32,7 @@
 
             <div class="bread-crumbs">
                 <ul class="bread-crumbs-menu">
-                    <li class="nav-button"><a href="index.php#terapias">Terapias<span class="page-indicator"></span></a></li>
+                    <li class="nav-button"><a href="https://www.terapiaconpablo.com/#terapias">Terapias<span class="page-indicator"></span></a></li>
                     <li> > </li>
                     <li class="nav-button button-selected"><a>Familiares</a></li>
                 </ul>
@@ -68,7 +68,7 @@
         <div class="text-special text-special-left">    
             <h2>Terapia familiar</h2>
             <p>
-                El bienestar de una família se puede ver alterado por múltiples motivos que pueden ser inherentes o externos a la família. Cuando esto ocurre la resolución de conflictos resulta prácticamente imposible y la convivencia se nos hace cuesta arriba. La terapia familiar ofrece un espacio seguro donde resolver conflictos de forma controlada, mejorar la comunicación y recuperar la armonía.
+                El bienestar de una familia se puede ver alterado por múltiples motivos que pueden ser inherentes o externos a la família. Cuando esto ocurre la resolución de conflictos resulta prácticamente imposible y la convivencia se nos hace cuesta arriba. La terapia familiar ofrece un espacio seguro donde resolver conflictos de forma controlada, mejorar la comunicación y recuperar la armonía.
             </p>
         </div>
     
@@ -133,5 +133,5 @@
 </section>
 <!-- Section: Formulario de contacto ends -->
 
-<?php include(SHARED_PATH . "/footer.php"); ?>
+<?php include("private/_shared/footer.php"); ?>
 
