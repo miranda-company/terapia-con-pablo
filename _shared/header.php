@@ -22,7 +22,7 @@
       <meta name="author" content="Diseño y desarrollo por la baula www.labaula.net">
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
       <meta name="robots" content="all">
-      <meta name="theme-color" content="#2d2d2d">
+      <meta name="theme-color" content="#66819d">
 
       <!-- Icons -->
       <link rel="apple-touch-icon" sizes="57x57" href="<?php echo url_for("_media/share_icons/apple-icon-57x57.png")?>">
