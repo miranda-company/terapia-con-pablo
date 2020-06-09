@@ -27,7 +27,7 @@
 
     <div class="text-right">
       <p>
-        <h2>Pablo Rodriguez González</h2>
+        <h2>Pablo Rodríguez González</h2>
         Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias. 
         <br>
         <br> 
