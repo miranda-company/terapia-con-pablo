@@ -145,7 +145,7 @@
     <div class="text-right">  
       <p class="desc-cursos">
         <h2>Conferencias</h2>
-        Desde 2015 coordino el Grupo de trabajo de psicooncología y cuidados paliativos del <a href="http://www.copib.es" target="_blank">COPIB</a> y colaboro con la <a href="https://www.aecc.es" target="_blank">AECC</a> de Ibiza. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
+        Desde 2015 trabajo con la <a href="https://www.aecc.es" target="_blank">AECC</a> de Ibiza y coordino el Grupo de trabajo de psicooncología y cuidados paliativos del <a href="http://www.copib.es" target="_blank">COPIB</a>. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
         <br>
         <br>
         Te invito a conocer <a href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi perfil en LinkedIn">mi perfil académico</a> y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
