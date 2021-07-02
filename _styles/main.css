@@ -55,10 +55,10 @@ body {
 }
 
 body {
-  background-color: #f2ede9;
+  background-color: #fffbf8;
   font-family: 'Muli', sans-serif;
   font-size: 15px;
-  color: #505050;
+  color: #656161;
   line-height: 1.6em;
   letter-spacing: 0.08em;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em;
 }
 
-h1 { font-size: 3em; }
+h1 { font-size: 2.6em; }
 h2 { 
   font-size: 1.7em;
   color: #404c4b;
@@ -110,7 +110,7 @@ a {
   .hero-section {
     position: relative;
     width: 100%;
-    height: 95vh;
+    height: 340px;
     overflow: hidden;
   }
   
@@ -130,9 +130,12 @@ a {
 
   .news-section {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1em;
-    background-color: #ffe4c8;
-    z-index: 100;
+    background-color: #ffe8c9;
+    z-index: 0;
     margin-bottom: 100px;
   }
   
@@ -259,6 +262,7 @@ a {
   
   .text-special {
     width: 50%;
+    min-height: 400px;
     padding: 30px;
     background-color: rgba(242, 237, 233, 0.5);  
   }
@@ -334,7 +338,7 @@ nav {
   height: auto;
   margin: 0;
   padding: 15px 0;
-  background-color: #f2ede9;
+  background-color: #fffbf8;
   z-index: 102;
 }
   #menu {
@@ -387,6 +391,7 @@ nav {
   bottom: 35px;
   right: 30px;
   z-index: 101;
+  display: none;
 }
   #quick-nav-buttons {
     display: flex;
@@ -499,6 +504,16 @@ footer {
   padding: 0 2em 2em 0;
 }
 
+.footer-adress-info {
+  color: #99cccc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+
 #footer-external-info {
   margin-top: 30px;
   justify-content: center !important;
@@ -532,52 +547,73 @@ footer {
 }
 
 #quick-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 0 3em;
-  font-size: 0.6em;
+  bottom: 20px;
+  left: 20px;
+  padding: 0 2em 0 0;
+  font-size: 0.8em;
   font-weight: 400;
   color: #4f5956;
-  background-color: #f2ede9;
-  border-radius: 0 10px 0 0;
-  z-index: 98;
+  background-color: #ffffff;
+  border-radius: 30px;
+  z-index: 99;
 }
+ .whatsapp-quick-contact {
+    width: 54px;
+    height: 54px;
+    margin-right: 15px;
+ }
+  .whatsapp-quick-contact img { 
+    width: 100%;
+    height: auto;
+  }
 
 /* ==========================================================================
    6. Inicio
    ========================================================================== */
 
 #inicio {
-  background: url(../_media/bg-visual.jpg) no-repeat center bottom; 
+  background: url(../_media/bg-visual.jpg) no-repeat center 33%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   z-index: 100;
+  background-color: rgba(0,0,0,0.5);
 }
 
 #welcome-message {
-  margin: 55vh auto;
-  color: #eeeeee;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 130px auto;
 }
+  #welcome-message h1 {
+    text-align: center;
+  }
   #welcome-message p {
     width: 57%;
     font-size: 1.2em;
     line-height: 1.4em;
+    text-align: center;
   }
  
 /* ==========================================================================
    7. Sobre Pablo
    ========================================================================== */
+#sobre-pablo {
+  padding: 50px 0 80px;
+}
 
 .main-content {
   display: flex;
   flex-direction: row;
   z-index: 2;
 }
-
-#retrato-pablo { margin-top: 65px; }
 
 .bg-decor-element {
   position: absolute;
@@ -632,7 +668,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 80px 0;
+  padding: 200px 0;
 }
 
 #quote-bg-white-overlay {
@@ -641,7 +677,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../_media/bg-quote-white-overlay.png) no-repeat center center; 
+  background-color: rgba(255,255,255,0.7);
 }
 
 .quote-border {
@@ -649,16 +685,6 @@ footer {
   left: 0;
   width: 100%;
   height: 40px;
-}
-
-#quote-border-top {
-  top: 0;
-  background: url(../_media/bg-quote-border-top.png) repeat-x;
-}
-
-#quote-border-bottom {
-  bottom: 0;
-  background: url(../_media/bg-quote-border-bottom.png) repeat-x;
 }
 
 #quote-wrapper {
@@ -734,7 +760,7 @@ footer {
     margin-bottom: 80px;
   }
   .section-wrapp { padding: 0 30px; }
-  #quick-contact { padding: 0 2em; }
+  #quick-contact { padding: 0 2em 0 0; }
   .cta { padding: 12px 40px 12px 20px ; }
   .cta-arrow { right: 10px; }
 
@@ -782,6 +808,7 @@ footer {
 
   .text-special {
     width: 60%;
+    min-height: auto !important;
   }
 
   .img-special-left {
@@ -830,7 +857,11 @@ footer {
   }
 
   /* 6. Inicio - media queries */
-  #welcome-message { margin: 40vh auto; }
+
+  #welcome-message {
+    margin: 103px auto;
+  }
+
   .main-content { flex-direction: column; }
   .key-image { 
     margin-top: 0;
@@ -871,6 +902,12 @@ footer {
   .img-special { width: 50%; }
   .img-special-left, .img-special-right { top: -20%; }
   
+}
+
+@media screen and (max-width: 335px) {
+  #welcome-message {
+    margin: 73px auto;
+  }
 }
 
 @media screen and (max-height: 475px){

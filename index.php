@@ -10,7 +10,7 @@
   <div id="welcome-message" class="section-wrapp">
     <h1>Terapia con Pablo</h1>
     <p>
-      Doy asistencia psicológica personalizada a personas y familias así como formación a profesionales y empresas.
+      Asistencia psicológica personalizada a personas y familias en Burgos e Ibiza.
     </p>
   </div>
 </section>
@@ -18,7 +18,6 @@
 
 <!-- Section: Sobre Pablo -->
 <section id="sobre-pablo" class="normal-section">
-  <div id="decor-1" class="bg-decor-element"></div>
 
   <div class="section-wrapp main-content">
     <div id="retrato-pablo" class="key-image">
@@ -27,17 +26,16 @@
 
     <div class="text-right">
       <p>
+        <h3>Psicoterapeuta</h3>
         <h2>Pablo Rodríguez González</h2>
-        Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias. 
+        Soy psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Me dedico a dar apoyo y acompañamiento a personas, parejas y familias.
+        Mi consulta se encuentra en Burgos e Ibiza pero también ofrezco asistencia en línea a través de mis canales digitales. 
         <br>
         <br> 
         Mi enfoque se basa en algunos aspectos de la terapia cognitivo-conductual y sobre todo en las terapias de tercera generación y el <em>mindfulness</em>. Estas últimas se centran en las necesidades de la persona yendo más allá de los síntomas de su malestar. 
         <br>
         <br>
         Entiendo la psicoterapia como un trabajo en equipo. Juntos trabajaremos en el desarrollo de tu bienestar emocional a partir del autoconocimiento y la introspección. Mi papel consiste en guiarte a lo largo de este proceso para que logres sanar heridas, cerrar asuntos inconclusos y establecer una relación más sana contigo y con los demás.
-        <br>
-        <br>
-        Mi consulta está en el centro de Ibiza, en el Centro Avanza, aunque también me puedes encontrar en la sede de la <a href="https://www.aecc.es" target="_blank" title="AECC">Asociación Española Contra el Cáncer</a> en Ibiza o a través de mis canales digitales dónde ofrezco terapia en línea.
       </p>
     </div>
   </div>
@@ -102,8 +100,6 @@
 <!-- Section: Quote -->
 <section id="quote" class="quote-section">
   <div id="quote-bg-white-overlay"></div>
-  <div id="quote-border-top" class="quote-border"></div>
-  <div id="quote-border-bottom" class="quote-border"></div>
   <div id="quote-wrapper" class="section-wrapp">
     <p id="quote-text">“ La buena vida es un proceso, no un estado del ser. Se trata de una dirección, no un destino. ”</p>
     <h2 id="quote-author">- Carl Rogers -</h2>
@@ -145,10 +141,10 @@
     <div class="text-right">  
       <p class="desc-cursos">
         <h2>Conferencias</h2>
-        Desde 2015 trabajo con la <a href="https://www.aecc.es" target="_blank">AECC</a> de Ibiza y coordino el Grupo de trabajo de psicooncología y cuidados paliativos del <a href="http://www.copib.es" target="_blank">COPIB</a>. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
+        A lo largo de cinco años trabajé con la <a href="https://www.aecc.es" target="_blank">Asociación Española Contra el Cáncer</a> de Ibiza y desde 2015 soy coordinador del Grupo de trabajo de psicooncología y cuidados paliativos del <a href="http://www.copib.es" target="_blank">COPIB</a>. Fruto de esta experiencia profesional y mi práctica docente, he participado en congresos nacionales e internacionales así como en diferentes sesiones clínicas.
         <br>
         <br>
-        Te invito a conocer <a href="https://www.linkedin.com/in/pablo-rodriguez-gonzalez-52856526" target="_blank" title="Conoce mi perfil en LinkedIn">mi perfil académico</a> y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
+        Te invito a conocer <a href="https://www.linkedin.com/in/pablo-rodgonz" target="_blank" title="Conoce mi perfil en LinkedIn">mi perfil académico</a> y a ponerte en contacto conmigo para organizar tu próximo congreso o sesión clínica.
       </p>
     </div>
   </div>

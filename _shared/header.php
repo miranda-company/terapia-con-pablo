@@ -1,7 +1,7 @@
 <?php
     //Check if page title has been set and if not set a default.
     if(!isset($pageTitle)){
-      $pageTitle = "Terapia con Pablo - psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Ibiza, España";
+      $pageTitle = "Terapia con Pablo - psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Ibiza y Burgos, España";
     }
 
     //Set inner page indicator on nav
@@ -17,8 +17,8 @@
       <meta name="language" content="es">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title><?php echo h($pageTitle); ?></title>
-      <meta name="description" content="Pablo Rodriguez González - psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Apoyo y acompañamiento a personas, parejas y familias así como formación a profesionales y empresas.">
-      <meta name="keywords" content="psicoterapeuta, procesos de duelo, psicología, violencia de género, psicooncología, Ibiza, España">
+      <meta name="description" content="Pablo Rodríguez González: Psicoterapeuta especializado en procesos de duelo, psicooncología y violencia de género. Apoyo y acompañamiento a personas, parejas y familias así como formación a profesionales y empresas.">
+      <meta name="keywords" content="psicoterapeuta, procesos de duelo, psicología, violencia de género, psicooncología, Ibiza, Burgos, España">
       <meta name="author" content="Diseño y desarrollo por la baula www.labaula.net">
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
       <meta name="robots" content="all">

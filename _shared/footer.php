@@ -11,6 +11,11 @@
 
   <!-- Quick contact -->
   <div id="quick-contact">
+    <div class="whatsapp-quick-contact">
+      <a href="https://wa.me/34722639555?text=Hola%20Pablo,%20me%20gustaría%20hacer%20terapia%20contigo.%20Mi%20nombre%20es%20" target="_blank" title="Agenda una cita conmigo a través de WhatsApp">
+        <img src="_media/icon-whatsapp-quick-contact.png" alt="">
+      </a>
+    </div>
     <p>Pablo Rodríguez González · +34 722 639 555 · <a href="#contacto"><strong>Contacto</strong></a></p>
   </div>
   <!-- Quick contact ends -->
@@ -29,6 +34,7 @@
   </section>
   
   <footer id="contacto">
+    
     <div id="footer-main-info" class="section-wrapp footer-info">
       <div class="footer-col">
         Pablo Rodríguez González
@@ -41,6 +47,14 @@
         <br>
         teléfono: +34 722 639 555
       </div>
+    </div>
+
+    <div class="footer-adress-info">
+      <div class="footer-col">
+        Avenida de Castilla y León 46.
+        <br>
+        Burgos, España
+      </div>
 
       <div class="footer-col">
         Centro Avanza C/Vía Púnica 45, bajos. 
@@ -48,6 +62,7 @@
         Ibiza, España
       </div>
     </div>
+    
 
     <div id="footer-external-info" class="section-wrapp footer-info">
       <div class="external-icon">
